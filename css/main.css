@@ -1339,3 +1339,45 @@ img { max-width: 100%; height: auto; }
 @media (max-width: 480px) {
   .rescue-grid { grid-template-columns: 1fr; }
 }
+
+/* =========================================
+   COMMUNITY IMPACT COUNTER
+   ========================================= */
+.impact-counter {
+  text-align: center;
+  padding: 36px 24px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius);
+  margin: 40px 0;
+}
+
+.impact-counter__label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-muted);
+  margin-bottom: 12px;
+}
+
+.impact-counter__number {
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--color-action);
+  line-height: 1;
+  margin-bottom: 8px;
+  font-variant-numeric: tabular-nums;
+}
+
+.impact-counter__sub {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-body);
+  margin-bottom: 4px;
+}
+
+.impact-counter__note {
+  font-size: 14px;
+  color: var(--color-muted);
+}
