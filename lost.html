@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Step-by-step protocol for finding a lost dog in Miami-Dade County.">
+  <title>I Lost My Dog — BILA305</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="protocol-page" data-page-id="lost">
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="BILA305 — Home">
+        BILA305
+        <span>Miami-Dade Lost &amp; Found Pet Hub</span>
+      </a>
+      <div class="lang-toggle" role="group" aria-label="Language / Idioma / Lang">
+        <button class="lang-toggle__btn" data-lang="en" aria-pressed="true">English</button>
+        <button class="lang-toggle__btn" data-lang="es" aria-pressed="false">Español</button>
+        <button class="lang-toggle__btn" data-lang="kr" aria-pressed="false">Kreyòl</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- LANG DETECTION BANNER -->
+  <div id="lang-banner" class="lang-banner" hidden role="alert">
+    <span data-lang-banner-msg>We detected your browser language. Switch?</span>
+    <div style="display:flex;gap:8px;flex-shrink:0">
+      <button class="lang-banner__dismiss" data-lang-banner-accept>Yes, switch</button>
+      <button class="lang-banner__dismiss" data-lang-banner-dismiss>Stay in English</button>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="main-nav__inner">
+      <a href="index.html" class="main-nav__link" data-i18n="nav.home">Home</a>
+      <a href="lost.html" class="main-nav__link" aria-current="page" data-i18n="nav.lost">Lost a Dog or Cat</a>
+      <a href="found.html" class="main-nav__link" data-i18n="nav.found">Found a Dog or Cat</a>
+      <a href="resources.html" class="main-nav__link" data-i18n="nav.resources">Resources</a>
+      <a href="prevention.html" class="main-nav__link" data-i18n="nav.prevention">Prevention</a>
+      <a href="help.html" class="main-nav__link" data-i18n="nav.help">Community Help</a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+    <div class="container">
+
+      <!-- LEASH LAW DISCLAIMER -->
+      <div class="callout callout--warn" style="margin-bottom:0;border-radius:8px 8px 0 0">
+        <p data-i18n="lost.leashLaw"><strong>Please note:</strong> Leaving your dog without a leash or unsupervised on the streets is against the law in Miami-Dade County, even then, no matter how vigilant, mistakes can happen and dogs can escape. It is the owner's responsibility to have your dog microchipped and rabies tagged — and preferably air tagged or GPS tracked for maximum protection. We don't mean to shame, but we want to ensure everyone is aware of the guidelines. The following section should help you find your dog.</p>
+      </div>
+
+      <!-- LEGAL BANNER — cannot be missed -->
+      <div class="callout callout--urgent callout--legal-banner" role="alert" aria-live="polite" style="border-radius:0 0 8px 8px;margin-top:0">
+        <span data-i18n="lost.legalBanner">⚠️ Miami-Dade County law: The shelter can only hold your dog for <strong>3 days</strong> before they become available for adoption. <strong>Filing a report today protects your dog.</strong></span>
+      </div>
+
+      <!-- PAGE HERO -->
+      <div class="page-hero">
+        <p class="page-hero__label">Protocol — Lost Dog</p>
+        <h1 class="page-hero__title" data-i18n="lost.headline">Let's find your dog. Do these steps in order.</h1>
+        <p class="page-hero__subtitle" data-i18n="lost.timeEstimate">This checklist takes about 20 minutes to complete.</p>
+      </div>
+
+      <!-- PROGRESS -->
+      <p class="progress-label" aria-live="polite">Step 0 of 5</p>
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Checklist progress">
+        <div class="progress-bar__fill" style="width:0%"></div>
+      </div>
+
+      <!-- ── PHASE 1 ─────────────────────────────── -->
+      <div class="phase-header">
+        <span class="phase-header__title" data-i18n="lost.phase1Title">Phase 1 — Right Now</span>
+        <span class="phase-header__subtitle" data-i18n="lost.phase1Subtitle">First 15 minutes</span>
+      </div>
+
+      <!-- STEP 1 -->
+      <article class="step-card" data-step-id="1" aria-labelledby="step1-title">
+        <div class="step-card__header">
+          <span class="step-number" aria-hidden="true">1</span>
+          <h2 id="step1-title" class="step-card__title" data-i18n="lost.step1.title">Search your immediate area</h2>
+        </div>
+        <div class="step-card__body">
+          <p data-i18n="lost.step1.body">Walk or drive within 2 blocks of where your dog was last seen. Ask neighbors if they have seen your dog.</p>
+          <p class="why-note" data-i18n="lost.step1.why">Most dogs are found within a few blocks of home in the first hour. If these two steps don't lead anywhere, move immediately to Step 2.</p>
+          <ul class="checklist" role="list">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-1-1" data-check-id="lost-1-1" aria-label="Searched my yard and street">
+              <label class="checklist__label" for="lost-1-1" data-i18n="lost.step1.checks.0">Searched my yard and street</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-1-2" data-check-id="lost-1-2" aria-label="Asked 2–3 neighbors">
+              <label class="checklist__label" for="lost-1-2" data-i18n="lost.step1.checks.1">Asked 2–3 neighbors in the area where your pet was last seen</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-1-3" data-check-id="lost-1-3">
+              <label class="checklist__label" for="lost-1-3" data-i18n="lost.step1.checks.2">Asked neighbors to check their <strong>Ring doorbell, security camera, or dashcam footage</strong> from around the time your pet went missing — even a direction of travel can narrow the search significantly</label>
+            </li>
+          </ul>
+          <span class="step-complete-badge" aria-hidden="true">✓ Complete</span>
+        </div>
+      </article>
+
+      <!-- ── PHASE 2 ─────────────────────────────── -->
+      <div class="phase-header">
+        <span class="phase-header__title" data-i18n="lost.phase2Title">Phase 2 — Within the Hour</span>
+      </div>
+
+      <!-- STEP 2 -->
+      <article class="step-card" data-step-id="2" aria-labelledby="step2-title">
+        <div class="step-card__header">
+          <span class="step-number" aria-hidden="true">2</span>
+          <h2 id="step2-title" class="step-card__title" data-i18n="lost.step2.title">Post on these platforms (all free)</h2>
+        </div>
+        <div class="step-card__body">
+          <div class="callout callout--warn">
+            <span data-i18n="lost.step2.tip">⚠️ Important tip — add your phone number directly in the post description.</span>
+          </div>
+          <p class="font-bold mt-16" data-i18n="lost.step2.howToPost">How to post — in this order:</p>
+          <ul class="checklist" role="list">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-2-1" data-check-id="lost-2-1">
+              <label class="checklist__label" for="lost-2-1">
+                <span data-i18n="lost.step2.checks.0">Post on <strong>Petco Love Lost</strong> — AI facial recognition matches your dog's photo against Found reports in real time</span>
+                <div class="btn-row">
+                  <a href="https://petcolove.org/lost" target="_blank" rel="noopener" class="btn btn--primary btn--sm" data-i18n="lost.step2.petcoBtn">Post on Petco Love Lost</a>
+                </div>
+              </label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-2-2" data-check-id="lost-2-2">
+              <label class="checklist__label" for="lost-2-2">
+                <span data-i18n="lost.step2.checks.1">Post on <strong>PawBoost</strong> — auto-distributes to local Facebook pages by area</span>
+                <div class="btn-row">
+                  <a href="https://www.pawboost.com" target="_blank" rel="noopener" class="btn btn--primary btn--sm" data-i18n="lost.step2.pawboostBtn">Post on PawBoost</a>
+                </div>
+              </label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-2-3" data-check-id="lost-2-3">
+              <label class="checklist__label" for="lost-2-3" data-i18n="lost.step2.checks.2">Share your Petco Love Lost and PawBoost posts to NextDoor and local Facebook groups</label>
+            </li>
+          </ul>
+
+          <!-- Template expandable -->
+          <div class="expandable mt-16">
+            <button class="expandable__toggle" aria-expanded="false" aria-controls="template-lost" data-i18n="lost.step2.templateTitle">Show me what to write</button>
+            <div id="template-lost" class="expandable__content" aria-hidden="true" data-i18n="lost.step2.template">🚨 LOST DOG — [NEIGHBORHOOD] — [DATE]
+Name: [Dog name]
+Breed/mix: [Description]
+Color and markings: [Be specific]
+Last seen: [Street or intersection]
+Contact: [Your phone number]
+[CLEAR PHOTO]</div>
+          </div>
+
+          <span class="step-complete-badge" aria-hidden="true">✓ Complete</span>
+        </div>
+      </article>
+
+      <!-- ── PHASE 3 ─────────────────────────────── -->
+      <div class="phase-header">
+        <span class="phase-header__title" data-i18n="lost.phase3Title">Phase 3 — Today</span>
+        <span class="phase-header__subtitle" data-i18n="lost.phase3Subtitle">Legally important — do not skip</span>
+      </div>
+
+      <!-- STEP 3 -->
+      <article class="step-card" data-step-id="3" aria-labelledby="step3-title">
+        <div class="step-card__header">
+          <span class="step-number" aria-hidden="true">3</span>
+          <h2 id="step3-title" class="step-card__title" data-i18n="lost.step3.title">File a report with Miami-Dade Animal Services</h2>
+        </div>
+        <div class="step-card__body">
+          <div class="callout callout--urgent">
+            <span data-i18n="lost.step3.legalCallout">⚠️ Filing an official report creates a record. This is your legal protection if your dog ends up at the shelter — and the clock is short. The shelter can only hold your dog for <strong>3 days</strong> before they become eligible for adoption.</span>
+          </div>
+          <div class="callout callout--warn">
+            <span data-i18n="lost.step3.fosterCallout">🏠 If a finder has your dog, ask them to <strong>keep fostering it at home</strong> while you work to reunite.</span>
+          </div>
+          <p class="mt-16" data-i18n="lost.step3.fileNote">File your report (do this even if you think someone has the dog — it creates an official record):</p>
+          <ul style="list-style:none;margin:12px 0;display:flex;flex-direction:column;gap:8px;font-size:15px;">
+            <li>📞 <strong data-i18n="lost.step3.call">Call: 311 or 305-468-5900</strong></li>
+            <li>✉️ <a href="mailto:asdlostandfound@miamidade.gov" data-i18n="lost.step3.email">Email: asdlostandfound@miamidade.gov</a></li>
+            <li>📍 <span data-i18n="lost.step3.inPerson">In person: 3599 NW 79 Avenue, Doral FL 33122</span></li>
+            <li style="padding-left:24px;font-size:14px;color:#5a5a5a;" data-i18n="lost.step3.hours">Mon–Fri: 10:00 AM–6:30 PM | Sat–Sun: 10:00 AM–4:00 PM | Closed county holidays</li>
+          </ul>
+          <ul class="checklist" role="list">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-3-1" data-check-id="lost-3-1">
+              <label class="checklist__label" for="lost-3-1" data-i18n="lost.step3.checks.0">Report filed with Animal Services</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-3-2" data-check-id="lost-3-2">
+              <label class="checklist__label" for="lost-3-2">
+                <span data-i18n="lost.step3.checks.1">Looked up my dog's microchip or license tag</span>
+                <div class="btn-row">
+                  <a href="https://www.miamidade.gov/Apps/ASD/TagSearch/" target="_blank" rel="noopener" class="btn btn--outline btn--sm" data-i18n="lost.step3.searchTagBtn">Search Tag/Chip</a>
+                </div>
+              </label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-3-3" data-check-id="lost-3-3">
+              <label class="checklist__label" for="lost-3-3">
+                <span data-i18n="lost.step3.checks.2">Checked the shelter's current listings</span>
+                <div class="btn-row">
+                  <a href="https://24petconnect.com/miad" target="_blank" rel="noopener" class="btn btn--outline btn--sm" data-i18n="lost.step3.viewShelterBtn">View Shelter Animals</a>
+                </div>
+              </label>
+            </li>
+          </ul>
+
+          <!-- Redemption fees callout -->
+          <details style="margin-top:20px;">
+            <summary style="cursor:pointer;font-weight:700;font-size:15px;padding:8px 0;" data-i18n="lost.step3.redemptionTitle">If your dog is already at the shelter — redemption fees:</summary>
+            <div class="callout callout--warn mt-8">
+              <span data-i18n="lost.step3.redemptionCallout">Bring your dog's <strong>rabies certificate</strong> — without it, your dog will not be released until a rabies shot is obtained.</span>
+            </div>
+          </details>
+
+          <span class="step-complete-badge" aria-hidden="true">✓ Complete</span>
+        </div>
+      </article>
+
+      <!-- ── PHASE 4 ─────────────────────────────── -->
+      <div class="phase-header">
+        <span class="phase-header__title" data-i18n="lost.phase4Title">Phase 4 — Within 48 Hours</span>
+      </div>
+
+      <!-- STEP 4 -->
+      <article class="step-card" data-step-id="4" aria-labelledby="step4-title">
+        <div class="step-card__header">
+          <span class="step-number" aria-hidden="true">4</span>
+          <h2 id="step4-title" class="step-card__title" data-i18n="lost.step4.title">Expand your search</h2>
+        </div>
+        <div class="step-card__body">
+          <ul class="checklist" role="list">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-4-1" data-check-id="lost-4-1">
+              <label class="checklist__label" for="lost-4-1">
+                <span data-i18n="lost.step4.checks.0">Make and distribute physical flyers within a 1-mile radius</span>
+              </label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-4-2" data-check-id="lost-4-2">
+              <label class="checklist__label" for="lost-4-2">
+                <span data-i18n="lost.step4.checks.2">Search Miami-Dade shelter listings on <strong>24Petconnect</strong></span>
+                <div class="btn-row">
+                  <a href="https://24petconnect.com/miad" target="_blank" rel="noopener" class="btn btn--outline btn--sm" data-i18n="lost.step4.petconnectBtn">Search 24Petconnect Miami-Dade</a>
+                </div>
+              </label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-4-4" data-check-id="lost-4-4">
+              <label class="checklist__label" for="lost-4-4" data-i18n="lost.step4.checks.3">Visit the shelter in person — walk the kennels, ask staff for help</label>
+            </li>
+          </ul>
+          <span class="step-complete-badge" aria-hidden="true">✓ Complete</span>
+        </div>
+      </article>
+
+      <!-- ── PHASE 5 ─────────────────────────────── -->
+      <div class="phase-header">
+        <span class="phase-header__title" data-i18n="lost.phase5Title">Phase 5 — Ongoing</span>
+      </div>
+
+      <!-- STEP 5 -->
+      <article class="step-card" data-step-id="5" aria-labelledby="step5-title">
+        <div class="step-card__header">
+          <span class="step-number" aria-hidden="true">5</span>
+          <h2 id="step5-title" class="step-card__title" data-i18n="lost.step5.title">Keep going</h2>
+        </div>
+        <div class="step-card__body">
+          <ul class="checklist" role="list">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-5-1" data-check-id="lost-5-1">
+              <label class="checklist__label" for="lost-5-1" data-i18n="lost.step5.checks.0">Check all platforms daily</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-5-2" data-check-id="lost-5-2">
+              <label class="checklist__label" for="lost-5-2" data-i18n="lost.step5.checks.1">Check the shelter's listings daily</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-5-3" data-check-id="lost-5-3">
+              <label class="checklist__label" for="lost-5-3" data-i18n="lost.step5.checks.2">Update your posts if you have new information</label>
+            </li>
+          </ul>
+
+          <p class="font-bold mt-24" data-i18n="lost.step5.foundTitle">When your dog is found:</p>
+          <ul class="checklist" role="list">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-5-4" data-check-id="lost-5-4">
+              <label class="checklist__label" for="lost-5-4" data-i18n="lost.step5.foundChecks.0">Update all posts: "FOUND — thank you everyone"</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-5-5" data-check-id="lost-5-5">
+              <label class="checklist__label" for="lost-5-5" data-i18n="lost.step5.foundChecks.1">Notify Animal Services so your report is closed</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="lost-5-6" data-check-id="lost-5-6">
+              <label class="checklist__label" for="lost-5-6" data-i18n="lost.step5.foundChecks.2">Take a photo of the reunion — you earned it</label>
+            </li>
+          </ul>
+          <span class="step-complete-badge" aria-hidden="true">✓ Complete</span>
+        </div>
+      </article>
+
+      <!-- COMPLETION STATE -->
+      <div class="completion-card callout--complete" role="status" aria-live="polite">
+        <span data-i18n="lost.completion">✅ You've completed all urgent steps. Keep checking daily.<br>Stuck? Call <strong>311</strong> anytime.</span>
+      </div>
+
+      <div style="height:80px"></div>
+
+    </div><!-- /container -->
+  </main>
+
+  <!-- PERSISTENT STUCK BUTTON -->
+  <a href="tel:311" class="stuck-btn" aria-label="Stuck? Call 311" data-i18n="stuck">Stuck? Call 311</a>
+
+
+  <!-- LEGAL DISCLAIMER -->
+  <div class="page-legal">
+    <div class="container">
+      <p><strong>Legal disclaimer:</strong> BILA305 is a community-curated resource guide and is not affiliated with or endorsed by Miami-Dade County or any government agency. Information is provided for general guidance only and may not reflect current laws, procedures, or availability of services. Always verify critical information directly with Miami-Dade Animal Services (311 or 305-468-5900) before taking action.</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <p class="site-footer__title" data-i18n="footer.hotline">📞 Lost &amp; Found Hotline: 311 or 305-468-5900</p>
+      <p>✉️ <a href="mailto:asdlostandfound@miamidade.gov" data-i18n="footer.email">asdlostandfound@miamidade.gov</a></p>
+      <p data-i18n="footer.address">📍 Miami-Dade Animal Services</p>
+      <p data-i18n="footer.street">3599 NW 79 Avenue, Doral, FL 33122</p>
+      <p data-i18n="footer.hours">Mon–Fri: 10AM–6:30PM | Sat–Sun: 10AM–4PM</p>
+    </div>
+      <p class="site-footer__copyright">&copy; 2026 noelnascimentosinghdias. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>

@@ -1,0 +1,304 @@
+{
+  "lang": "en",
+  "nav": {
+    "home": "Home",
+    "lost": "I Lost My Dog",
+    "found": "I Found a Dog",
+    "resources": "Resources",
+    "prevention": "Prevention",
+    "help": "Community Help"
+  },
+  "langToggle": {
+    "label": "Language",
+    "en": "EN",
+    "es": "ES",
+    "kr": "KR"
+  },
+  "stuck": "Stuck? Call 311",
+  "footer": {
+    "hotline": "Lost & Found Hotline: 311 or 305-468-5900",
+    "email": "asdlostandfound@miamidade.gov",
+    "address": "Miami-Dade Animal Services",
+    "street": "3599 NW 79 Avenue, Doral, FL 33122",
+    "hours": "Mon–Fri: 10AM–6:30PM | Sat–Sun: 10AM–4PM"
+  },
+  "home": {
+    "title": "Miami-Dade Lost & Found Dog Hub",
+    "subtitle": "The community's shared resource for lost and found dogs in Miami-Dade County.",
+    "lostBtn": "I LOST MY DOG",
+    "foundBtn": "I FOUND A DOG",
+    "lostDesc": "Step-by-step protocol to find your dog fast.",
+    "foundDesc": "Step-by-step protocol with legal requirements.",
+    "hubTitle": "Resource Hub",
+    "hubSubtitle": "Browse tools, prevention tips, and ways to help.",
+    "resourcesBtn": "Resource Directory",
+    "preventionBtn": "Prevention",
+    "helpBtn": "Community Help"
+  },
+  "lost": {
+    "headline": "Let's find your dog. Do these steps in order.",
+    "timeEstimate": "This checklist takes about 20 minutes to complete.",
+    "legalBanner": "⚠️ Miami-Dade County law: The shelter can only hold your dog for <strong>3 days</strong> before they become available for adoption. <strong>Filing a report today protects your dog.</strong>",
+    "progressLabel": "Step {current} of {total}",
+    "phase1Title": "Phase 1 — Right Now",
+    "phase1Subtitle": "First 15 minutes",
+    "phase2Title": "Phase 2 — Within the Hour",
+    "phase3Title": "Phase 3 — Today",
+    "phase3Subtitle": "Legally important — do not skip",
+    "phase4Title": "Phase 4 — Within 48 Hours",
+    "phase5Title": "Phase 5 — Ongoing",
+    "step1": {
+      "title": "Search your immediate area",
+      "body": "Walk or drive within 2 blocks of where your dog was last seen. Ask neighbors if they have seen your dog.",
+      "why": "Most dogs are found within a few blocks of home in the first hour. If these two steps don't lead anywhere, move immediately to Step 2.",
+      "checks": [
+        "Searched my yard and street",
+        "Asked 2–3 neighbors"
+      ]
+    },
+    "step2": {
+      "title": "Post on these platforms (all free)",
+      "tip": "⚠️ Important tip — add your phone number directly in the post description: Both Petco Love Lost and PawBoost hide your contact information from other users and send notifications by email — which frequently land in spam or \"Other\" folders. Do not rely on platform notifications alone. Put your phone number in the body of every post so finders can reach you directly without waiting on a platform email.",
+      "howToPost": "How to post — in this order:",
+      "checks": [
+        "Post on <strong>Petco Love Lost</strong> — AI facial recognition matches your dog's photo against Found reports in real time",
+        "Post on <strong>PawBoost</strong> — auto-distributes to local Facebook pages by area. After posting, follow your local PawBoost Facebook page and turn on post notifications.",
+        "Share your Petco Love Lost and PawBoost posts to NextDoor and local Facebook groups — share the existing posts rather than creating new ones"
+      ],
+      "templateTitle": "Show me what to write",
+      "template": "🚨 LOST DOG — [NEIGHBORHOOD] — [DATE]\nName: [Dog name]\nBreed/mix: [Description]\nColor and markings: [Be specific]\nLast seen: [Street or intersection]\nContact: [Your phone number]\n[CLEAR PHOTO]",
+      "petcoBtn": "Post on Petco Love Lost",
+      "pawboostBtn": "Post on PawBoost"
+    },
+    "step3": {
+      "title": "File a report with Miami-Dade Animal Services",
+      "legalCallout": "⚠️ Filing an official report creates a record. This is your legal protection if your dog ends up at the shelter — and the clock is short. The shelter can only hold your dog for <strong>3 days</strong> before they become eligible for adoption.",
+      "fosterCallout": "🏠 If a finder has your dog, ask them to <strong>keep fostering it at home</strong> while you work to reunite. Miami-Dade shelters are at or beyond capacity and resources are stretched. A dog is safer and better cared for in a home than in an intake facility. Finders are legally allowed to keep a found dog while searching for the owner — encourage them to do so.",
+      "fileNote": "File your report (do this even if you think someone has the dog — it creates an official record):",
+      "call": "Call: 311 or 305-468-5900",
+      "email": "Email: asdlostandfound@miamidade.gov",
+      "inPerson": "In person: 3599 NW 79 Avenue, Doral FL 33122",
+      "hours": "Mon–Fri: 10:00 AM–6:30 PM | Sat–Sun: 10:00 AM–4:00 PM | Closed county holidays",
+      "checks": [
+        "Report filed with Animal Services",
+        "Looked up my dog's microchip or license tag",
+        "Checked the shelter's current listings"
+      ],
+      "searchTagBtn": "Search Tag/Chip",
+      "viewShelterBtn": "View Shelter Animals",
+      "redemptionTitle": "If your dog is already at the shelter — redemption fees:",
+      "redemptionCallout": "Bring your dog's <strong>rabies certificate</strong> — without it, your dog will not be released until a rabies shot is obtained.<br>• Sterilized dog: <strong>$50 + $10/day boarding</strong><br>• Unsterilized dog: <strong>$100 + $10/day boarding</strong><br>• Second offense within 12 months: $75–$125 + boarding"
+    },
+    "step4": {
+      "title": "Expand your search",
+      "checks": [
+        "Make and distribute physical flyers within a 1-mile radius (large photo, phone number in 36pt font minimum, \"LOST DOG\" bold at top)",
+        "Register on <strong>Pet Harbor</strong>",
+        "Post on <strong>24Petconnect</strong>",
+        "Visit the shelter in person — walk the kennels, ask staff for help"
+      ],
+      "flyerBtn": "Download flyer template",
+      "petHarborBtn": "Search Pet Harbor",
+      "petconnectBtn": "Post on 24Petconnect"
+    },
+    "step5": {
+      "title": "Keep going",
+      "checks": [
+        "Check all platforms daily",
+        "Check the shelter's listings daily",
+        "Update your posts if you have new information"
+      ],
+      "foundTitle": "When your dog is found:",
+      "foundChecks": [
+        "Update all posts: \"FOUND — thank you everyone\"",
+        "Notify Animal Services so your report is closed",
+        "Take a photo of the reunion — you earned it"
+      ]
+    },
+    "completion": "✅ You've completed all urgent steps. Keep checking daily.\nStuck? Call <strong>311</strong> anytime."
+  },
+  "found": {
+    "headline": "You did the right thing by stopping. Here's exactly what to do — step by step.",
+    "timeEstimate": "This checklist takes about 30 minutes to complete.",
+    "legalBanner": "🔴 <strong>72-HOUR LEGAL DEADLINE</strong><br>Miami-Dade County law requires you to:<br>1. Notify Animal Services, AND<br>2. Have the dog scanned for a microchip<br><br>Both must be done <strong>within 72 hours</strong> of finding the dog. Failure may result in a civil penalty.<br>⏱️ Your 72 hours started when you found the dog.",
+    "phase1Title": "Phase 1 — Right Now",
+    "phase2Title": "Phase 2 — Within 2 Hours",
+    "phase3Title": "Phase 3 — Within 72 Hours",
+    "phase3Subtitle": "Required by law",
+    "phase4Title": "Phase 4 — Today",
+    "phase5Title": "Phase 5 — While You Wait",
+    "phase6Title": "Phase 6 — When the Owner Contacts You",
+    "step1": {
+      "title": "Check for identification",
+      "treeQ1": "Does the dog have a collar with a tag?",
+      "treeYes": "YES",
+      "treeNo": "NO",
+      "treeQ2": "Is there a phone number on the tag?",
+      "treeDone": "Call it now. You may be done! ✅",
+      "treeQ3": "Is there a rabies tag or license number?",
+      "treeLookup": "Look it up",
+      "treeLookupBtn": "Search Tag/Chip",
+      "treeContinue": "Continue to Step 2",
+      "treeNote": "The Miami-Dade Tag/Microchip Lookup tool can identify the owner from a license or rabies tag number alone."
+    },
+    "step2": {
+      "title": "Get the dog scanned for a microchip",
+      "legalCallout": "⚠️ Required by Miami-Dade County Ordinance. Must be done within 72 hours of finding the dog.",
+      "options": "Options:",
+      "vet": "<strong>Any private veterinary clinic</strong> — most will scan for free or low cost. Call ahead.",
+      "shelter": "<strong>Miami-Dade Animal Services</strong> — 3599 NW 79 Ave, Doral FL 33122<br>Mon–Fri: 10:00 AM–6:30 PM | Sat–Sun: 10:00 AM–4:00 PM",
+      "chipFound": "⚠️ You must contact the registered owner within <strong>24 hours</strong>. This is required by law.<br>Continue to Step 6 (Owner Verification) as soon as the owner responds.",
+      "noChip": "No chip found — continue to Step 3.",
+      "chipFoundTitle": "If a chip is found:",
+      "noChipTitle": "If no chip is found:"
+    },
+    "step3": {
+      "title": "File the official report — and keep the dog with you",
+      "legalCallout": "⚠️ Miami-Dade County law requires you to notify Animal Services within 72 hours. Failure to do so may result in a civil penalty.",
+      "fosterNote": "The goal is to keep this dog out of the shelter. Miami-Dade's shelter system is at or beyond capacity. A dog in a home is safer, calmer, and has a much better chance of being reunited with its owner than a dog in an intake facility. You are doing the right thing by fostering.",
+      "howTitle": "How to file the official report (do one of these):",
+      "checks": [
+        "Online (preferred): Submit via Petco Love Lost — this form directly notifies Miami-Dade Animal Services. It is the official reporting mechanism.",
+        "By phone: Call <strong>311</strong> or <strong>305-468-5900</strong> if you cannot complete the online form"
+      ],
+      "doneNote": "That's it for this step. You do not need to go to the shelter.",
+      "petcoBtn": "File Official Report via Petco Love Lost",
+      "deadlineCallout": "⏱️ If you are nearing 72 hours, have not found the owner, and are unable to continue fostering, go to Miami-Dade Animal Services in person to complete a <strong>foster application</strong> — this keeps the dog legally in your care beyond the 72-hour window while the search continues.<br>3599 NW 79 Avenue, Doral FL 33122<br>Mon–Fri: 10:00 AM–6:30 PM | Sat–Sun: 10:00 AM–4:00 PM"
+    },
+    "step4": {
+      "title": "Post publicly so the owner can find you",
+      "wordingTitle": "Use this exact wording pattern. Unclear posts slow everything down.",
+      "wordingDo": "✅ Write: <strong>\"I HAVE FOUND A DOG — [Neighborhood] — [Date]\"</strong>",
+      "wordingDont": "❌ Do not write: \"Lost dog\" — that means your dog is missing, which is the opposite",
+      "wordingInclude": "Include: photo, color, breed or mix, where found, <strong>your phone number in the description</strong>",
+      "wordingExclude": "Do not include: your home address",
+      "tip": "⚠️ Important tip — add your phone number directly in the post description: Both Petco Love Lost and PawBoost hide your contact information from other users and send notifications by email — which frequently land in spam or \"Other\" folders. Do not rely on platform notifications alone. Put your phone number in the body of every post so owners can reach you directly without the platform as an intermediary.",
+      "howToPost": "How to post — in this order:",
+      "checks": [
+        "Post on <strong>Petco Love Lost</strong> with a clear photo — AI will automatically compare your post against existing lost dog reports",
+        "Post on <strong>PawBoost</strong> — auto-distributes to local Facebook pages by area. After posting, follow your local PawBoost Facebook page and turn on post notifications.",
+        "Share your Petco Love Lost and PawBoost posts to NextDoor and local Facebook groups — do not create new separate posts; share the existing ones",
+        "Check existing \"Lost\" reports on Petco Love Lost and PawBoost — does this dog match anyone already searching?"
+      ],
+      "petcoBtn": "Post on Petco Love Lost",
+      "pawboostBtn": "Post on PawBoost"
+    },
+    "step5": {
+      "title": "Keep the dog safe",
+      "legalNote": "You are <strong>legally allowed</strong> to keep the dog in your home while you search for the owner. You do not have to take the dog to the shelter.",
+      "bullets": [
+        "Provide water, food, and a safe, calm space",
+        "Keep the dog separated from other pets until temperament is known",
+        "If the dog appears injured or ill, call 311 for low-cost vet options",
+        "Check your posts daily for responses"
+      ]
+    },
+    "step6": {
+      "title": "Verify ownership before releasing the dog",
+      "intro": "This step protects you, protects the dog, and creates an accountable record. Do not release the dog before completing it.",
+      "callout": "Anyone can claim a dog. Before you hand the dog over, you need to confirm this is actually their dog. This is standard practice and the owner will understand.",
+      "verifyTitle": "How to verify — ask for at least two of the following:",
+      "checks": [
+        "<strong>Describe the dog's markings without being prompted.</strong> Ask the owner: \"Can you describe any distinguishing marks, scars, or features?\" If they can describe something you didn't mention in your post, that's a strong indicator.",
+        "<strong>Photos from before the dog went missing.</strong> Ask them to show you photos of themselves with the dog on their phone. Look for consistency with the dog in front of you.",
+        "<strong>Vet records</strong> showing the dog's name, breed, and their name as owner.",
+        "<strong>Microchip registration certificate</strong> with their name and the chip number.",
+        "<strong>Miami-Dade dog license</strong> in their name — they can look it up at miamidade.gov/Apps/ASD/TagSearch/ if they have the tag number."
+      ],
+      "documentTitle": "Document the handover — for your own records:",
+      "documentChecks": [
+        "Take a photo of the owner's ID (driver's license or government ID) — ask permission, explain it's for your records",
+        "Take a photo of the dog with the owner at the moment of return",
+        "Note the date, time, and location of the handover"
+      ],
+      "whyNote": "Dog theft is real. Disputes happen. A documented handover protects you legally and ensures the right dog goes to the right person. It also closes the loop on any reports you filed.",
+      "afterTitle": "After handover:",
+      "afterChecks": [
+        "Update all posts: \"REUNITED — thank you everyone ❤️\"",
+        "Notify Miami-Dade Animal Services that the dog has been returned to owner",
+        "Close your Pet Harbor registration"
+      ]
+    },
+    "completion": "✅ You completed every step — including the legal requirements.\nYou made a difference. Thank you.\nQuestions? Call <strong>311</strong> or <strong>305-468-5900</strong>."
+  },
+  "resources": {
+    "title": "Resource Directory",
+    "subtitle": "All tools and organizations that help with lost and found dogs in Miami-Dade County.",
+    "catA": "Official — Report & Search",
+    "catB": "Community — Post & Search",
+    "catC": "Shelters & Rescues",
+    "catD": "Free & Low-Cost Services",
+    "facebookNote": "Note on Facebook: PawBoost automatically posts to local Facebook groups it has generated by geographic area. This is already organized. Users do not need to manage Facebook groups manually — PawBoost handles it.",
+    "capacityNote": "A curated list of local rescue organizations with contact information and current capacity status. Most rescues are at or beyond capacity as of 2026.",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "prevention": {
+    "title": "Prevention",
+    "subtitle": "The 3 things that reunite dogs fastest — before they go missing.",
+    "printNote": "Designed to be printed as a double-sided card and shared at vet offices, HOA boards, and community centers.",
+    "card1Title": "1. Microchip your dog — and keep the registry current",
+    "card1Body": "A chip with an old phone number is useless. The chip is only as good as what's registered to it.",
+    "card1Steps": [
+      "Get chipped (~$25–$45 at most vets; free at county events)",
+      "Register the chip immediately (AKC Reunite, HomeAgain, AVID, or 24Petwatch)",
+      "Update your phone number every time it changes"
+    ],
+    "card1Link": "Look up your chip or license tag",
+    "card2Title": "2. Use a readable ID tag",
+    "card2Body": "Tags work even without a scanner. The right finder can call you immediately — no app, no vet required.",
+    "card2Tips": [
+      "Include: dog's name + your cell phone number",
+      "Format: embossed directly on collar, or large slide-on tag",
+      "Font large enough to read while the dog is moving — not a small dangling disc",
+      "Replace when worn, faded, or info changes"
+    ],
+    "card2Insight": "Community insight: Tags printed directly on the collar in large letters are easiest for finders to read on an excited dog.",
+    "card3Title": "3. License your dog in Miami-Dade County",
+    "card3Body": "Licensing is required by county law and links your dog to your address and contact info in the county database. A licensed dog can be identified in seconds via the tag lookup tool.",
+    "card3Link": "License your dog with Miami-Dade",
+    "auditTitle": "Bonus: Home escape audit",
+    "auditItems": [
+      "Check fence for ground-level gaps — especially after rain, wind, or landscaping",
+      "Test gate latches: can they be nosed or pawed open?",
+      "Know your dog's preferred escape route and reinforce it",
+      "Keep ID tags on even indoor dogs — one open door is all it takes"
+    ],
+    "printBtn": "Print Prevention Card"
+  },
+  "help": {
+    "title": "Community Help",
+    "subtitle": "You don't have to do everything. Pick ONE thing.",
+    "reframe": "The highest-leverage action for most community members is not donating or fostering — it is <strong>replacing your own advice with this protocol.</strong> That behavior change scales instantly and costs nothing.",
+    "card1Title": "SHARE THE PROTOCOL",
+    "card1Time": "2 minutes, free — highest impact",
+    "card1Body": "When you see someone posting \"I lost my dog\" or \"I found a dog\" — stop typing your own advice and share this link instead.",
+    "card1Lost": "/lost for someone who lost a dog",
+    "card1Found": "/found for someone who found one",
+    "card1Why": "One clear protocol beats 40 conflicting comments. Every time someone shares this link instead of their own advice, the community gets a little more coordinated.",
+    "card1Cta": "Copy link to share",
+    "card1LostCta": "Copy /lost link",
+    "card1FoundCta": "Copy /found link",
+    "card1Copied": "Copied!",
+    "card2Title": "DONATE",
+    "card2Time": "5 minutes, any amount",
+    "card2Body": "Give what you can to local rescues covering costs for found animals.",
+    "card2Anchors": [
+      "$5 = microchip registration for one dog",
+      "$15 = ID tag set for 5 dogs",
+      "$49 = one day of emergency boarding for a found stray"
+    ],
+    "card2Cta": "See vetted local Miami-Dade rescues accepting donations",
+    "card3Title": "VOLUNTEER",
+    "card3Time": "A few hours/month",
+    "card3Body": "Help post flyers when a dog is lost nearby. Scan lost/found posts and flag potential matches. Be the person in your neighborhood group who shares the protocol link.",
+    "card3Cta": "Sign up — 2 minutes, no commitment",
+    "card4Title": "FOSTER",
+    "card4Time": "Days or weeks, your schedule",
+    "card4Body": "Temporarily keep a found dog safe in your home while an owner is located or an adoption is arranged. No experience required. You can specify what you can and can't handle.",
+    "card4Cta": "Apply to foster",
+    "card5Title": "ADOPT",
+    "card5Body": "Miami-Dade shelters are at or above capacity. Adoption directly creates space for dogs brought in as found strays.",
+    "card5Cta": "See dogs available now — Pet Harbor Miami-Dade"
+  }
+}

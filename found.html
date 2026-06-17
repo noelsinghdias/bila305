@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Step-by-step protocol for someone who found a dog in Miami-Dade County. Includes 72-hour legal requirements.">
+  <title>I Found a Dog — BILA305</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="protocol-page" data-page-id="found">
+
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="BILA305 — Home">
+        BILA305
+        <span>Miami-Dade Lost &amp; Found Pet Hub</span>
+      </a>
+      <div class="lang-toggle" role="group" aria-label="Language / Idioma / Lang">
+        <button class="lang-toggle__btn" data-lang="en" aria-pressed="true">English</button>
+        <button class="lang-toggle__btn" data-lang="es" aria-pressed="false">Español</button>
+        <button class="lang-toggle__btn" data-lang="kr" aria-pressed="false">Kreyòl</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="lang-banner" class="lang-banner" hidden role="alert">
+    <span data-lang-banner-msg>We detected your browser language. Switch?</span>
+    <div style="display:flex;gap:8px;flex-shrink:0">
+      <button class="lang-banner__dismiss" data-lang-banner-accept>Yes, switch</button>
+      <button class="lang-banner__dismiss" data-lang-banner-dismiss>Stay in English</button>
+    </div>
+  </div>
+
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="main-nav__inner">
+      <a href="index.html" class="main-nav__link" data-i18n="nav.home">Home</a>
+      <a href="lost.html" class="main-nav__link" data-i18n="nav.lost">Lost a Dog or Cat</a>
+      <a href="found.html" class="main-nav__link" aria-current="page" data-i18n="nav.found">Found a Dog or Cat</a>
+      <a href="resources.html" class="main-nav__link" data-i18n="nav.resources">Resources</a>
+      <a href="prevention.html" class="main-nav__link" data-i18n="nav.prevention">Prevention</a>
+      <a href="help.html" class="main-nav__link" data-i18n="nav.help">Community Help</a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <div class="container">
+
+      <!-- 72-HOUR LEGAL BANNER -->
+      <div class="callout callout--urgent callout--legal-banner" role="alert">
+        <span data-i18n="found.legalBanner">🔴 <strong>72-HOUR LEGAL DEADLINE</strong><br>
+        Miami-Dade County law requires you to:<br>
+        1. Notify Animal Services, AND<br>
+        2. Have the pet scanned for a microchip<br><br>
+        Both must be done <strong>within 72 hours</strong> of finding the pet. Failure may result in a civil penalty.<br>
+        ⏱️ Your 72 hours started when you found the pet.<br><br>
+        ⚠️ <strong>You are not authorized to give the pet to another person if no owner comes forward.</strong> If the owner is not located, the pet must be surrendered to Miami-Dade Animal Services. Any interested party who wishes to adopt the pet must apply through the official adoption process at the shelter.</span>
+      </div>
+
+      <!-- PAGE HERO -->
+      <div class="page-hero">
+        <p class="page-hero__label">Protocol — Found Dog</p>
+        <h1 class="page-hero__title" data-i18n="found.headline">You did the right thing by stopping. Here's exactly what to do — step by step.</h1>
+        <p class="page-hero__subtitle" data-i18n="found.timeEstimate">This checklist takes about 30 minutes to complete.</p>
+      </div>
+
+      <!-- PROGRESS -->
+      <p class="progress-label" aria-live="polite">Step 0 of 6</p>
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Checklist progress">
+        <div class="progress-bar__fill" style="width:0%"></div>
+      </div>
+
+      <!-- ── PHASE 1 ─────────────────────────────── -->
+      <div class="phase-header">
+        <span class="phase-header__title" data-i18n="found.phase1Title">Phase 1 — Right Now</span>
+      </div>
+
+      <!-- STEP 1 — Decision Tree -->
+      <article class="step-card" data-step-id="1" aria-labelledby="found-step1-title">
+        <div class="step-card__header">
+          <span class="step-number" aria-hidden="true">1</span>
+          <h2 id="found-step1-title" class="step-card__title" data-i18n="found.step1.title">Check for identification</h2>
+        </div>
+        <div class="step-card__body">
+
+          <!-- Rabies safety disclaimer -->
+          <div class="callout callout--urgent" style="margin-bottom:16px">
+            <span data-i18n="found.step1.safetyCallout">⚠️ <strong>Safety first:</strong> If the pet is showing signs of aggressive behavior and you are unsure of its rabies vaccination status, do <strong>not</strong> attempt to handle it. Call <strong>311</strong> or Miami-Dade Animal Services at <strong>305-468-5900</strong> for assistance.</span>
+          </div>
+
+          <!-- Decision Tree UI -->
+          <div class="decision-tree" role="region" aria-label="Identification decision tree">
+
+            <p class="decision-tree__question" data-i18n="found.step1.treeQ1">Does the dog have a collar with a tag?</p>
+
+            <div class="decision-tree__branch">
+
+              <!-- YES branch -->
+              <div class="decision-tree__option">
+                <span class="decision-tree__arrow" data-i18n="found.step1.treeYes">YES</span>
+                <div class="decision-tree__result">
+                  <p class="decision-tree__question" data-i18n="found.step1.treeQ2">Is there a phone number on the tag?</p>
+                  <div class="decision-tree__branch">
+                    <div class="decision-tree__option">
+                      <span class="decision-tree__arrow" data-i18n="found.step1.treeYes">YES</span>
+                      <div class="decision-tree__result">
+                        <span class="decision-tree__done" data-i18n="found.step1.treeDone">Call it now. You may be done! ✅</span>
+                      </div>
+                    </div>
+                    <div class="decision-tree__option">
+                      <span class="decision-tree__arrow" data-i18n="found.step1.treeNo">NO</span>
+                      <div class="decision-tree__result">
+                        <p class="decision-tree__question" data-i18n="found.step1.treeQ3">Is there a rabies tag or license number?</p>
+                        <div class="decision-tree__branch">
+                          <div class="decision-tree__option">
+                            <span class="decision-tree__arrow" data-i18n="found.step1.treeYes">YES</span>
+                            <div class="decision-tree__result">
+                              <p data-i18n="found.step1.treeRabiesText">Look it up online, take the pet to a vet to scan, or call <strong>855-411-0123</strong> / <strong>311</strong> with the tag number.</p>
+                              <div class="btn-row">
+                                <a href="https://www.miamidade.gov/Apps/ASD/TagSearch/" target="_blank" rel="noopener" class="btn btn--primary btn--sm" data-i18n="found.step1.treeLookupBtn">Search Tag/Chip Online</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="decision-tree__option">
+                            <span class="decision-tree__arrow" data-i18n="found.step1.treeNo">NO</span>
+                            <div class="decision-tree__result">
+                              <span data-i18n="found.step1.treeContinue">Continue to Step 2</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- NO branch -->
+              <div class="decision-tree__option">
+                <span class="decision-tree__arrow" data-i18n="found.step1.treeNo">NO</span>
+                <div class="decision-tree__result">
+                  <span data-i18n="found.step1.treeContinue">Continue to Step 2</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <p class="decision-tree__note" data-i18n="found.step1.treeNote">The Miami-Dade Tag/Microchip Lookup tool can identify the owner from a license or rabies tag number alone. You can also call <strong>855-411-0123</strong> or <strong>311</strong>.</p>
+
+          <ul class="checklist" role="list" style="margin-top:16px">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-1-1" data-check-id="found-1-1">
+              <label class="checklist__label" for="found-1-1">Checked for collar, tag, and identification</label>
+            </li>
+          </ul>
+          <span class="step-complete-badge" aria-hidden="true">✓ Complete</span>
+        </div>
+      </article>
+
+      <!-- ── PHASE 2 ─────────────────────────────── -->
+      <div class="phase-header">
+        <span class="phase-header__title" data-i18n="found.phase2Title">Phase 2 — Within 2 Hours</span>
+      </div>
+
+      <!-- STEP 2 -->
+      <article class="step-card" data-step-id="2" aria-labelledby="found-step2-title">
+        <div class="step-card__header">
+          <span class="step-number" aria-hidden="true">2</span>
+          <h2 id="found-step2-title" class="step-card__title" data-i18n="found.step2.title">Get the dog scanned for a microchip</h2>
+        </div>
+        <div class="step-card__body">
+          <div class="callout callout--urgent">
+            <span data-i18n="found.step2.legalCallout">⚠️ Required by Miami-Dade County Ordinance. Must be done within 72 hours of finding the dog.</span>
+          </div>
+          <p class="font-bold mt-16" data-i18n="found.step2.options">Options:</p>
+          <ul style="list-style:none;margin:12px 0;display:flex;flex-direction:column;gap:12px;font-size:15px;">
+            <li><span data-i18n="found.step2.vet"><strong>Any private veterinary clinic near you</strong> — go on Google and search <em>"veterinary near me"</em> to find the closest one. Most will scan for free or at low cost. Call ahead to confirm.</span></li>
+            <li><span data-i18n="found.step2.shelter"><strong>Miami-Dade Animal Services</strong> — 3599 NW 79 Ave, Doral FL 33122<br>Mon–Fri: 10:00 AM–6:30 PM | Sat–Sun: 10:00 AM–4:00 PM</span></li>
+          </ul>
+
+          <div class="callout callout--urgent mt-16">
+            <p class="font-bold mb-8" data-i18n="found.step2.chipFoundTitle">If a chip is found:</p>
+            <span data-i18n="found.step2.chipFound">⚠️ You must contact the registered owner within <strong>24 hours</strong>. This is required by law. Continue to Step 6 (Owner Verification) once the owner responds.</span>
+          </div>
+          <div class="callout callout--info mt-8">
+            <p class="font-bold mb-8" data-i18n="found.step2.noChipTitle">If no chip is found:</p>
+            <span data-i18n="found.step2.noChip">No chip found — continue to Step 3.</span>
+          </div>
+
+          <ul class="checklist" role="list" style="margin-top:16px">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-2-1" data-check-id="found-2-1">
+              <label class="checklist__label" for="found-2-1">Dog has been scanned for a microchip</label>
+            </li>
+          </ul>
+          <span class="step-complete-badge" aria-hidden="true">✓ Complete</span>
+        </div>
+      </article>
+
+      <!-- ── PHASE 3 — POST PUBLICLY (swapped to before filing) ── -->
+      <div class="phase-header">
+        <span class="phase-header__title">Phase 3 — Today</span>
+      </div>
+
+      <!-- STEP 3 — Post publicly -->
+      <article class="step-card" data-step-id="3" aria-labelledby="found-step3-title">
+        <div class="step-card__header">
+          <span class="step-number" aria-hidden="true">3</span>
+          <h2 id="found-step3-title" class="step-card__title" data-i18n="found.step4.title">Post publicly so the owner can find you</h2>
+        </div>
+        <div class="step-card__body">
+          <div class="callout callout--info">
+            <p class="font-bold mb-8" data-i18n="found.step4.wordingTitle">Use this exact wording pattern. Unclear posts slow everything down.</p>
+            <p data-i18n="found.step4.wordingDo">✅ Write: <strong>"I HAVE FOUND A DOG — [Neighborhood] — [Date]"</strong></p>
+            <p class="mt-8" data-i18n="found.step4.wordingDont">❌ Do not write: "Lost dog" — that means your dog is missing, which is the opposite</p>
+            <p class="mt-8" data-i18n="found.step4.wordingInclude">Include: photo, color, breed or mix, where found, <strong>your phone number in the description</strong></p>
+            <p class="mt-8" data-i18n="found.step4.wordingExclude">Do not include: your home address</p>
+          </div>
+
+          <div class="callout callout--warn mt-16">
+            <span data-i18n="found.step4.tip">⚠️ Important tip — add your phone number directly in the post description. Petco Love Lost and PawBoost hide your contact info and send notifications by email — which frequently land in spam. Put your number in the body of every post.</span>
+          </div>
+
+          <p class="font-bold mt-16" data-i18n="found.step4.howToPost">How to post — in this order:</p>
+          <ul class="checklist" role="list">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-3-1" data-check-id="found-3-1">
+              <label class="checklist__label" for="found-3-1">
+                <span data-i18n="found.step4.checks.0">Post on <strong>Petco Love Lost</strong> with a clear photo — AI will automatically compare your post against existing lost dog reports</span>
+                <div class="btn-row">
+                  <a href="https://petcolove.org/found" target="_blank" rel="noopener" class="btn btn--primary btn--sm" data-i18n="found.step4.petcoBtn">Post on Petco Love Lost</a>
+                </div>
+              </label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-3-2" data-check-id="found-3-2">
+              <label class="checklist__label" for="found-3-2">
+                <span data-i18n="found.step4.checks.1">Post on <strong>PawBoost</strong> — auto-distributes to local Facebook pages by area. Turn on post notifications after posting.</span>
+                <div class="btn-row">
+                  <a href="https://www.pawboost.com" target="_blank" rel="noopener" class="btn btn--primary btn--sm" data-i18n="found.step4.pawboostBtn">Post on PawBoost</a>
+                </div>
+              </label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-3-3" data-check-id="found-3-3">
+              <label class="checklist__label" for="found-3-3" data-i18n="found.step4.checks.2">Share your Petco Love Lost and PawBoost posts to NextDoor and local Facebook groups — share existing posts, don't create new ones</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-3-4" data-check-id="found-3-4">
+              <label class="checklist__label" for="found-3-4" data-i18n="found.step4.checks.3">Check existing "Lost" reports on Petco Love Lost and PawBoost — does this dog match anyone already searching?</label>
+            </li>
+          </ul>
+          <span class="step-complete-badge" aria-hidden="true">✓ Complete</span>
+        </div>
+      </article>
+
+      <!-- ── PHASE 4 — FILE REPORT (within 72 hours) ── -->
+      <div class="phase-header">
+        <span class="phase-header__title" data-i18n="found.phase3Title">Phase 4 — Within 72 Hours</span>
+        <span class="phase-header__subtitle" data-i18n="found.phase3Subtitle">Required by law</span>
+      </div>
+
+      <!-- STEP 4 — File official report -->
+      <article class="step-card" data-step-id="4" aria-labelledby="found-step4-title">
+        <div class="step-card__header">
+          <span class="step-number" aria-hidden="true">4</span>
+          <h2 id="found-step4-title" class="step-card__title" data-i18n="found.step3.title">File the official report — and keep the dog with you</h2>
+        </div>
+        <div class="step-card__body">
+          <div class="callout callout--urgent">
+            <span data-i18n="found.step3.legalCallout">⚠️ Miami-Dade County law requires you to notify Animal Services within 72 hours. Failure to do so may result in a civil penalty.</span>
+          </div>
+          <p class="mt-16" data-i18n="found.step3.fosterNote">The goal is to keep this dog out of the shelter. Miami-Dade's shelter system is at or beyond capacity. A dog in a home is safer, calmer, and has a much better chance of being reunited with its owner than a dog in an intake facility. You are doing the right thing by fostering.</p>
+
+          <p class="font-bold mt-16" data-i18n="found.step3.howTitle">How to file the official report (do one of these):</p>
+          <ul class="checklist" role="list">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-4-1" data-check-id="found-4-1">
+              <label class="checklist__label" for="found-4-1">
+                <span data-i18n="found.step3.checks.0">Online (preferred): Submit via Petco Love Lost — this form directly notifies Miami-Dade Animal Services.</span>
+                <div class="btn-row">
+                  <a href="https://petcolove.org/found" target="_blank" rel="noopener" class="btn btn--urgent btn--sm" data-i18n="found.step3.petcoBtn">File Official Report via Petco Love Lost</a>
+                </div>
+              </label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-4-2" data-check-id="found-4-2">
+              <label class="checklist__label" for="found-4-2" data-i18n="found.step3.checks.1">By phone: Call <strong>311</strong> or <strong>305-468-5900</strong> if you cannot complete the online form</label>
+            </li>
+          </ul>
+
+          <p class="text-muted text-small mt-16" data-i18n="found.step3.doneNote">That's it for this step. You do not need to go to the shelter.</p>
+
+          <div class="callout callout--warn mt-16">
+            <span data-i18n="found.step3.deadlineCallout">⏱️ If you are nearing 72 hours, have not found the owner, and are unable to continue fostering, go to Miami-Dade Animal Services in person to complete a <strong>foster application</strong> — this keeps the dog legally in your care beyond the 72-hour window.<br>3599 NW 79 Avenue, Doral FL 33122 | Mon–Fri: 10AM–6:30PM | Sat–Sun: 10AM–4PM</span>
+          </div>
+          <span class="step-complete-badge" aria-hidden="true">✓ Complete</span>
+        </div>
+      </article>
+
+      <!-- ── PHASE 5 ─────────────────────────────── -->
+      <div class="phase-header">
+        <span class="phase-header__title" data-i18n="found.phase5Title">Phase 5 — While You Wait</span>
+      </div>
+
+      <!-- STEP 5 -->
+      <article class="step-card" data-step-id="5" aria-labelledby="found-step5-title">
+        <div class="step-card__header">
+          <span class="step-number" aria-hidden="true">5</span>
+          <h2 id="found-step5-title" class="step-card__title" data-i18n="found.step5.title">Keep the dog safe</h2>
+        </div>
+        <div class="step-card__body">
+          <div class="callout callout--complete">
+            <span data-i18n="found.step5.legalNote">You are <strong>legally allowed</strong> to keep the dog in your home while you search for the owner. You do not have to take the dog to the shelter.</span>
+          </div>
+
+          <!-- Rabies disclaimer -->
+          <div class="callout callout--urgent mt-16">
+            <span data-i18n="found.step5.rabiesCallout">⚠️ <strong>Rabies safety:</strong> If you are unaware of the pet's rabies vaccination status and it is showing signs of aggressive behavior, do <strong>not</strong> keep it at home. Take it to Miami-Dade Animal Services or call <strong>311</strong> immediately.</span>
+          </div>
+
+          <ul class="checklist" role="list" style="margin-top:16px">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-5-1" data-check-id="found-5-1">
+              <label class="checklist__label" for="found-5-1" data-i18n="found.step5.bullets.0">Provide water, food, and a safe, calm space</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-5-2" data-check-id="found-5-2">
+              <label class="checklist__label" for="found-5-2" data-i18n="found.step5.bullets.1">Keep the dog separated from other pets until temperament is known</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-5-3" data-check-id="found-5-3">
+              <label class="checklist__label" for="found-5-3" data-i18n="found.step5.bullets.2">If the dog appears injured or ill, call 311 for low-cost vet options</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-5-4" data-check-id="found-5-4">
+              <label class="checklist__label" for="found-5-4" data-i18n="found.step5.bullets.3">Check your posts daily for responses</label>
+            </li>
+          </ul>
+          <span class="step-complete-badge" aria-hidden="true">✓ Complete</span>
+        </div>
+      </article>
+
+      <!-- ── PHASE 6 ─────────────────────────────── -->
+      <div class="phase-header">
+        <span class="phase-header__title" data-i18n="found.phase6Title">Phase 6 — When the Owner Contacts You</span>
+      </div>
+
+      <!-- STEP 6 -->
+      <article class="step-card" data-step-id="6" aria-labelledby="found-step6-title">
+        <div class="step-card__header">
+          <span class="step-number" aria-hidden="true">6</span>
+          <h2 id="found-step6-title" class="step-card__title" data-i18n="found.step6.title">Verify ownership before releasing the dog</h2>
+        </div>
+        <div class="step-card__body">
+          <p data-i18n="found.step6.intro">This step protects you, protects the dog, and creates an accountable record. Do not release the dog before completing it.</p>
+          <div class="callout callout--warn mt-16">
+            <span data-i18n="found.step6.callout">Anyone can claim a dog. Before you hand the dog over, you need to confirm this is actually their dog. This is standard practice and the owner will understand.</span>
+          </div>
+
+          <p class="font-bold mt-16" data-i18n="found.step6.verifyTitle">How to verify — ask for at least two of the following:</p>
+          <ul class="checklist" role="list">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-6-1" data-check-id="found-6-1">
+              <label class="checklist__label" for="found-6-1" data-i18n="found.step6.checks.0"><strong>Describe the dog's markings without being prompted.</strong> Ask: "Can you describe any distinguishing marks, scars, or features?"</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-6-2" data-check-id="found-6-2">
+              <label class="checklist__label" for="found-6-2" data-i18n="found.step6.checks.1"><strong>Photos from before the dog went missing</strong> — ask them to show photos of themselves with the dog on their phone.</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-6-3" data-check-id="found-6-3">
+              <label class="checklist__label" for="found-6-3" data-i18n="found.step6.checks.2"><strong>Vet records</strong> showing the dog's name, breed, and their name as owner.</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-6-4" data-check-id="found-6-4">
+              <label class="checklist__label" for="found-6-4" data-i18n="found.step6.checks.3"><strong>Microchip registration certificate</strong> with their name and the chip number.</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-6-5" data-check-id="found-6-5">
+              <label class="checklist__label" for="found-6-5" data-i18n="found.step6.checks.4"><strong>Miami-Dade dog license</strong> in their name.</label>
+            </li>
+          </ul>
+
+          <p class="font-bold mt-24" data-i18n="found.step6.documentTitle">Document the handover — for your own records:</p>
+          <ul class="checklist" role="list">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-6-6" data-check-id="found-6-6">
+              <label class="checklist__label" for="found-6-6" data-i18n="found.step6.documentChecks.0">Take a photo of the owner's ID — ask permission, explain it's for your records</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-6-7" data-check-id="found-6-7">
+              <label class="checklist__label" for="found-6-7" data-i18n="found.step6.documentChecks.1">Take a photo of the dog with the owner at the moment of return</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-6-8" data-check-id="found-6-8">
+              <label class="checklist__label" for="found-6-8" data-i18n="found.step6.documentChecks.2">Note the date, time, and location of the handover</label>
+            </li>
+          </ul>
+
+          <p class="why-note mt-16" data-i18n="found.step6.whyNote">Dog theft is real. Disputes happen. A documented handover protects you legally and ensures the right dog goes to the right person.</p>
+
+          <p class="font-bold mt-24" data-i18n="found.step6.afterTitle">After handover:</p>
+          <ul class="checklist" role="list">
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-6-9" data-check-id="found-6-9">
+              <label class="checklist__label" for="found-6-9" data-i18n="found.step6.afterChecks.0">Update all posts: "REUNITED — thank you everyone ❤️"</label>
+            </li>
+            <li class="checklist__item">
+              <input type="checkbox" class="checklist__checkbox" id="found-6-10" data-check-id="found-6-10">
+              <label class="checklist__label" for="found-6-10" data-i18n="found.step6.afterChecks.1">Notify Miami-Dade Animal Services that the dog has been returned to its owner</label>
+            </li>
+          </ul>
+          <span class="step-complete-badge" aria-hidden="true">✓ Complete</span>
+        </div>
+      </article>
+
+      <!-- COMPLETION STATE -->
+      <div class="completion-card callout--complete" role="status" aria-live="polite">
+        <span data-i18n="found.completion">✅ You completed every step — including the legal requirements.<br>You made a difference. Thank you.<br>Questions? Call <strong>311</strong> or <strong>305-468-5900</strong>.</span>
+      </div>
+
+      <div style="height:80px"></div>
+
+    </div>
+  </main>
+
+  <a href="tel:311" class="stuck-btn" aria-label="Stuck? Call 311" data-i18n="stuck">Stuck? Call 311</a>
+
+
+  <!-- LEGAL DISCLAIMER -->
+  <div class="page-legal">
+    <div class="container">
+      <p><strong>Legal disclaimer:</strong> BILA305 is a community-curated resource guide and is not affiliated with or endorsed by Miami-Dade County or any government agency. Information is provided for general guidance only and may not reflect current laws, procedures, or availability of services. Always verify critical information directly with Miami-Dade Animal Services (311 or 305-468-5900) before taking action.</p>
+    </div>
+  </div>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <p class="site-footer__title" data-i18n="footer.hotline">📞 Lost &amp; Found Hotline: 311 or 305-468-5900</p>
+      <p>✉️ <a href="mailto:asdlostandfound@miamidade.gov" data-i18n="footer.email">asdlostandfound@miamidade.gov</a></p>
+      <p data-i18n="footer.address">📍 Miami-Dade Animal Services</p>
+      <p data-i18n="footer.street">3599 NW 79 Avenue, Doral, FL 33122</p>
+      <p data-i18n="footer.hours">Mon–Fri: 10AM–6:30PM | Sat–Sun: 10AM–4PM</p>
+    </div>
+      <p class="site-footer__copyright">&copy; 2026 noelnascimentosinghdias. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>

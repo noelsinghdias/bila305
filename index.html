@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BILA305 — Miami-Dade's community resource for lost and found pets. Step-by-step protocol and resource directory for dogs and cats.">
+  <title>BILA305 — Miami-Dade Lost &amp; Found Pet Hub</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="BILA305 — Home">
+        BILA305
+        <span>Miami-Dade Lost &amp; Found Pet Hub</span>
+      </a>
+      <div class="lang-toggle" role="group" aria-label="Language / Idioma / Lang">
+        <button class="lang-toggle__btn" data-lang="en" aria-pressed="true">English</button>
+        <button class="lang-toggle__btn" data-lang="es" aria-pressed="false">Español</button>
+        <button class="lang-toggle__btn" data-lang="kr" aria-pressed="false">Kreyòl</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- LANG DETECTION BANNER -->
+  <div id="lang-banner" class="lang-banner" hidden role="alert">
+    <span data-lang-banner-msg>We detected your browser language. Switch?</span>
+    <div style="display:flex;gap:8px;flex-shrink:0">
+      <button class="lang-banner__dismiss" data-lang-banner-accept>Yes, switch</button>
+      <button class="lang-banner__dismiss" data-lang-banner-dismiss>Stay in English</button>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="main-nav__inner">
+      <a href="index.html" class="main-nav__link" aria-current="page" data-i18n="nav.home">Home</a>
+      <a href="lost.html" class="main-nav__link" data-i18n="nav.lost">Lost a Dog or Cat</a>
+      <a href="found.html" class="main-nav__link" data-i18n="nav.found">Found a Dog or Cat</a>
+      <a href="resources.html" class="main-nav__link" data-i18n="nav.resources">Resources</a>
+      <a href="prevention.html" class="main-nav__link" data-i18n="nav.prevention">Prevention</a>
+      <a href="help.html" class="main-nav__link" data-i18n="nav.help">Community Help</a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="home-hero container">
+      <h1 class="home-hero__title" data-i18n="home.title">BILA305: Miami-Dade Lost &amp; Found Pet Guidelines</h1>
+      <p class="home-hero__subtitle" data-i18n="home.subtitle">The community's shared protocol for lost and found dogs and cats in Miami-Dade County.</p>
+
+      <div class="protocol-buttons" role="group" aria-label="Protocol — choose your situation">
+        <a href="lost.html" class="btn-protocol btn-protocol--lost">
+          <span data-i18n="home.lostBtn">I LOST MY PET</span>
+          <span class="btn-protocol__desc" data-i18n="home.lostDesc">Step-by-step protocol for lost dogs and cats.</span>
+        </a>
+        <a href="found.html" class="btn-protocol btn-protocol--found">
+          <span data-i18n="home.foundBtn">I FOUND A PET</span>
+          <span class="btn-protocol__desc" data-i18n="home.foundDesc">Step-by-step protocol with legal requirements.</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT BILA305 -->
+    <section class="bila-section" aria-labelledby="bila-title">
+      <div class="container">
+        <div class="bila-card">
+          <div class="bila-card__photo-wrap">
+            <img src="bila.jpg" alt="BILA — the tiny chihuahua who inspired this guide" class="bila-card__photo">
+          </div>
+          <div class="bila-card__content">
+            <p class="bila-card__label" data-i18n="home.bila.label">About BILA305</p>
+            <h2 id="bila-title" class="bila-card__title" data-i18n="home.bila.title">Community Guidelines on Helping Pets Find Their Way Back Home</h2>
+            <p data-i18n="home.bila.p1">One evening, a tiny chihuahua appeared outside the front gate — alone, limping, no microchip, clearly lost. There was a tag, but no owner information. That dog's name turned out to be BILA.</p>
+            <p data-i18n="home.bila.p2">BILA was eventually reunited with her family. But the process of getting her home was harder than it should have been — not because the resources didn't exist, but because nobody could agree on what to do first. Forty people offered advice, but it was overwhelming. It made me wonder: if someone with no experience found or lost a pet, how would they even begin to navigate?</p>
+            <p data-i18n="home.bila.p3">That experience made something clear: <strong>this is an information problem, not a resource problem.</strong></p>
+            <p data-i18n="home.bila.p4">After a firsthand stressful experience and researching the issue — including a qualitative and social media analysis of challenges faced with lost and found pet posts — a pattern emerged. Good Samaritans were trying their best, but without a shared protocol, reunions that should have taken hours took days. Some never happened at all.</p>
+            <p data-i18n="home.bila.p5">BILA305 was built to fix that. These guidelines exist so that the next time someone finds a lost pet or loses their own, they have a clear, step-by-step path forward — grounded in Miami-Dade County's actual legal requirements and the platforms that actually work.</p>
+            <p class="bila-card__credit" data-i18n="home.bila.credit">Named after BILA. Built for the community. 305.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HUB SECTION -->
+    <section class="hub-section" aria-labelledby="hub-title">
+      <div class="container">
+        <h2 id="hub-title" class="hub-section__title" data-i18n="home.hubTitle">Resource Hub</h2>
+        <p class="hub-section__subtitle" data-i18n="home.hubSubtitle">Browse tools, prevention tips, and ways to help.</p>
+        <div class="hub-buttons">
+          <a href="resources.html" class="btn-hub" data-i18n="home.resourcesBtn">Resource Directory</a>
+          <a href="prevention.html" class="btn-hub" data-i18n="home.preventionBtn">Prevention</a>
+          <a href="help.html" class="btn-hub" data-i18n="home.helpBtn">Community Help</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PERSISTENT STUCK BUTTON -->
+  <a href="tel:311" class="stuck-btn" aria-label="Stuck? Call 311" data-i18n="stuck">Stuck? Call 311</a>
+
+  <!-- LEGAL DISCLAIMER -->
+  <div class="page-legal">
+    <div class="container">
+      <p><strong>Legal disclaimer:</strong> BILA305 is a community-curated resource guide and is not affiliated with or endorsed by Miami-Dade County or any government agency. Information is provided for general guidance only and may not reflect current laws, procedures, or availability of services. Always verify critical information directly with Miami-Dade Animal Services (311 or 305-468-5900) before taking action.</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <p class="site-footer__title" data-i18n="footer.hotline">📞 Lost &amp; Found Hotline: 311 or 305-468-5900</p>
+      <p>✉️ <a href="mailto:asdlostandfound@miamidade.gov" data-i18n="footer.email">asdlostandfound@miamidade.gov</a></p>
+      <p data-i18n="footer.address">📍 Miami-Dade Animal Services</p>
+      <p data-i18n="footer.street">3599 NW 79 Avenue, Doral, FL 33122</p>
+      <p data-i18n="footer.hours">Mon–Fri: 10AM–6:30PM | Sat–Sun: 10AM–4PM</p>
+      <p class="site-footer__copyright">&copy; 2026 noelnascimentosinghdias. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>

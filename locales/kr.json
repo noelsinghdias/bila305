@@ -1,0 +1,305 @@
+{
+  "lang": "kr",
+  "_note": "Haitian Creole (Kreyòl) — LEGAL STRINGS REQUIRE PROFESSIONAL TRANSLATION. All [LEGAL] strings below are EN placeholders.",
+  "nav": {
+    "home": "Akèy",
+    "lost": "Mwen pèdi chen mwen",
+    "found": "Mwen jwenn yon chen",
+    "resources": "Resous",
+    "prevention": "Prevansyon",
+    "help": "Èd Kominotè"
+  },
+  "langToggle": {
+    "label": "Lang",
+    "en": "EN",
+    "es": "ES",
+    "kr": "KR"
+  },
+  "stuck": "Bezwen èd? Rele 311",
+  "footer": {
+    "hotline": "Liy pou bèt pèdi/jwenn: 311 oswa 305-468-5900",
+    "email": "asdlostandfound@miamidade.gov",
+    "address": "Sèvis Bèt Miami-Dade",
+    "street": "3599 NW 79 Avenue, Doral, FL 33122",
+    "hours": "Lendi–Vandredi: 10AM–6:30PM | Samdi–Dimanch: 10AM–4PM"
+  },
+  "home": {
+    "title": "Sant Resous pou Chen Pèdi ak Jwenn",
+    "subtitle": "Resous kominotè pou chen pèdi ak jwenn nan Konte Miami-Dade.",
+    "lostBtn": "MWEN PÈDI CHEN MWEN",
+    "foundBtn": "MWEN JWENN YON CHEN",
+    "lostDesc": "Pwotokòl pa etap pou jwenn chen ou vit.",
+    "foundDesc": "Pwotokòl pa etap ak kondisyon legal.",
+    "hubTitle": "Sant Resous",
+    "hubSubtitle": "Jwenn zouti, konsèy prevansyon, ak fason pou ede.",
+    "resourcesBtn": "Anyè Resous",
+    "preventionBtn": "Prevansyon",
+    "helpBtn": "Èd Kominotè"
+  },
+  "lost": {
+    "headline": "Ann jwenn chen ou. Fè etap sa yo nan lòd.",
+    "timeEstimate": "Lis verifikasyon sa a pran anviwon 20 minit.",
+    "legalBanner": "⚠️ [LEGAL — PROFESSIONAL TRANSLATION REQUIRED] Miami-Dade County law: The shelter can only hold your dog for <strong>3 days</strong> before they become available for adoption. <strong>Filing a report today protects your dog.</strong>",
+    "progressLabel": "Etap {current} nan {total}",
+    "phase1Title": "Faz 1 — Kounye a",
+    "phase1Subtitle": "15 premye minit",
+    "phase2Title": "Faz 2 — Nan lè k ap vini an",
+    "phase3Title": "Faz 3 — Jodi a",
+    "phase3Subtitle": "Enpòtan legalman — pa sote",
+    "phase4Title": "Faz 4 — Nan 48 è",
+    "phase5Title": "Faz 5 — Kontinyèlman",
+    "step1": {
+      "title": "Chèche nan zòn imedyat ou",
+      "body": "Mache oswa kondui nan 2 blòk kote ou te wè chen ou la dènyèman. Mande vwazen yo si yo te wè chen ou.",
+      "why": "Pifò chen jwenn nan kèk blòk lakay nan premye lè a. Si de etap sa yo pa bay rezilta, ale imedyatman nan Etap 2.",
+      "checks": [
+        "Chèche nan jaden m ak nan lari",
+        "Mande 2–3 vwazen"
+      ]
+    },
+    "step2": {
+      "title": "Poste sou platfòm sa yo (tout gratis)",
+      "tip": "⚠️ Konsèy enpòtan — ajoute nimewo telefòn ou dirèkteman nan deskripsyon pòs la. Petco Love Lost ak PawBoost kache enfòmasyon kontak ou ak voye notifikasyon pa imèl — ki souvan ale nan spam. Pa konte sou notifikasyon platfòm sèlman. Mete nimewo telefòn ou nan kò chak pòs.",
+      "howToPost": "Kijan pou poste — nan lòd sa a:",
+      "checks": [
+        "Poste sou <strong>Petco Love Lost</strong> — rekonesans fasyal AI konpare foto chen ou ak rapò Jwenn yo an tan reyèl",
+        "Poste sou <strong>PawBoost</strong> — distribye otomatikman nan paj Facebook lokal. Apre pòste, swiv paj PawBoost lokal ou ak aktive notifikasyon.",
+        "Pataje pòs Petco Love Lost ak PawBoost ou yo sou NextDoor ak gwoup Facebook lokal — pataje pòs egzistant yo olye kreye nouvo yo"
+      ],
+      "templateTitle": "Montre m kisa pou ekri",
+      "template": "🚨 CHEN PÈDI — [KATYE] — [DAT]\nNon: [Non chen an]\nRas/melanj: [Deskripsyon]\nKoulè ak mak: [Espesifik]\nDènyèman wè: [Ri oswa entèseksyon]\nKontak: [Nimewo telefòn ou]\n[FOTO KLÈ]",
+      "petcoBtn": "Poste sou Petco Love Lost",
+      "pawboostBtn": "Poste sou PawBoost"
+    },
+    "step3": {
+      "title": "Depoze yon rapò ak Sèvis Bèt Miami-Dade",
+      "legalCallout": "⚠️ [LEGAL — PROFESSIONAL TRANSLATION REQUIRED] Filing an official report creates a record. This is your legal protection if your dog ends up at the shelter — and the clock is short. The shelter can only hold your dog for <strong>3 days</strong> before they become eligible for adoption.",
+      "fosterCallout": "🏠 Si yon moun deja jwenn chen ou, mande yo <strong>kenbe li lakay yo</strong> pandan ou travay pou reyini. Abri Miami-Dade yo plen. Yon chen pi an sekirite nan yon kay pase nan yon etablisman entansyon.",
+      "fileNote": "Depoze rapò ou (fè sa menm si ou panse yon moun gen chen an — li kreye yon dosye ofisyèl):",
+      "call": "Rele: 311 oswa 305-468-5900",
+      "email": "Imèl: asdlostandfound@miamidade.gov",
+      "inPerson": "An pèsòn: 3599 NW 79 Avenue, Doral FL 33122",
+      "hours": "Lendi–Vandredi: 10:00 AM–6:30 PM | Samdi–Dimanch: 10:00 AM–4:00 PM | Fèmen jou konje konte",
+      "checks": [
+        "Rapò depoze ak Sèvis Bèt",
+        "Chèche microchip oswa etikèt lisans chen mwen",
+        "Verifye lis aktyèl abri a"
+      ],
+      "searchTagBtn": "Chèche Etikèt/Chip",
+      "viewShelterBtn": "Wè Bèt nan Abri",
+      "redemptionTitle": "Si chen ou deja nan abri a — frè rekiperasyon:",
+      "redemptionCallout": "[LEGAL — PROFESSIONAL TRANSLATION REQUIRED] Bring your dog's <strong>rabies certificate</strong> — without it, your dog will not be released until a rabies shot is obtained.<br>• Sterilized dog: <strong>$50 + $10/day boarding</strong><br>• Unsterilized dog: <strong>$100 + $10/day boarding</strong><br>• Second offense within 12 months: $75–$125 + boarding"
+    },
+    "step4": {
+      "title": "Elaji rechèch ou",
+      "checks": [
+        "Fè ak distribye feyè fizik nan yon reyon 1 mil (gwo foto, nimewo telefòn nan 36pt minimum, \"CHEN PÈDI\" an gra anlè)",
+        "Enskri sou <strong>Pet Harbor</strong>",
+        "Poste sou <strong>24Petconnect</strong>",
+        "Vizite abri a an pèsòn — mache nan kenèl yo, mande pèsonèl la pou èd"
+      ],
+      "flyerBtn": "Telechaje modèl feyè",
+      "petHarborBtn": "Chèche Pet Harbor",
+      "petconnectBtn": "Poste sou 24Petconnect"
+    },
+    "step5": {
+      "title": "Kontinye",
+      "checks": [
+        "Verifye tout platfòm chak jou",
+        "Verifye lis abri a chak jou",
+        "Mete ajou pòs ou yo si ou gen nouvo enfòmasyon"
+      ],
+      "foundTitle": "Lè ou jwenn chen ou:",
+      "foundChecks": [
+        "Mete ajou tout pòs: \"JWENN — mèsi tout moun\"",
+        "Avèti Sèvis Bèt pou fèmen rapò ou",
+        "Pran yon foto reyinyon an — ou merite li"
+      ]
+    },
+    "completion": "✅ Ou fini tout etap ijan yo. Kontinye tcheke chak jou.\nBezwen èd? Rele <strong>311</strong>."
+  },
+  "found": {
+    "headline": "Ou te fè sa ki bon lè ou te kanpe. Men egzakteman sa pou fè — pa etap.",
+    "timeEstimate": "Lis verifikasyon sa a pran anviwon 30 minit.",
+    "legalBanner": "🔴 [LEGAL — PROFESSIONAL TRANSLATION REQUIRED] <strong>72-HOUR LEGAL DEADLINE</strong><br>Miami-Dade County law requires you to:<br>1. Notify Animal Services, AND<br>2. Have the dog scanned for a microchip<br><br>Both must be done <strong>within 72 hours</strong> of finding the dog. Failure may result in a civil penalty.<br>⏱️ Your 72 hours started when you found the dog.",
+    "phase1Title": "Faz 1 — Kounye a",
+    "phase2Title": "Faz 2 — Nan 2 è",
+    "phase3Title": "Faz 3 — Nan 72 è",
+    "phase3Subtitle": "Obligatwa pa lwa",
+    "phase4Title": "Faz 4 — Jodi a",
+    "phase5Title": "Faz 5 — Pandan w ap tann",
+    "phase6Title": "Faz 6 — Lè pwopriyetè a kontakte ou",
+    "step1": {
+      "title": "Tcheke si li gen idantifikasyon",
+      "treeQ1": "Èske chen an gen kolye ak etikèt?",
+      "treeYes": "WI",
+      "treeNo": "NON",
+      "treeQ2": "Èske gen yon nimewo telefòn sou etikèt la?",
+      "treeDone": "Rele kounye a. Ou ka fini! ✅",
+      "treeQ3": "Èske gen yon etikèt rabyèz oswa nimewo lisans?",
+      "treeLookup": "Chèche li",
+      "treeLookupBtn": "Chèche Etikèt/Chip",
+      "treeContinue": "Kontinye nan Etap 2",
+      "treeNote": "Zouti rechèch Etikèt/Microchip Miami-Dade ka idantifye pwopriyetè a ak nimewo lisans oswa etikèt rabyèz sèlman."
+    },
+    "step2": {
+      "title": "Fè chen an eskannen pou microchip",
+      "legalCallout": "⚠️ [LEGAL — PROFESSIONAL TRANSLATION REQUIRED] Required by Miami-Dade County Ordinance. Must be done within 72 hours of finding the dog.",
+      "options": "Opsyon:",
+      "vet": "<strong>Nenpòt klinik veterinè prive</strong> — pifò pral eskannen gratis oswa a pri ba. Rele davans.",
+      "shelter": "<strong>Sèvis Bèt Miami-Dade</strong> — 3599 NW 79 Ave, Doral FL 33122<br>Lendi–Vandredi: 10:00 AM–6:30 PM | Samdi–Dimanch: 10:00 AM–4:00 PM",
+      "chipFound": "⚠️ [LEGAL — PROFESSIONAL TRANSLATION REQUIRED] You must contact the registered owner within <strong>24 hours</strong>. This is required by law.",
+      "noChip": "Pa jwenn chip — kontinye nan Etap 3.",
+      "chipFoundTitle": "Si yo jwenn yon chip:",
+      "noChipTitle": "Si pa jwenn chip:"
+    },
+    "step3": {
+      "title": "Depoze rapò ofisyèl la — epi kenbe chen an avèk ou",
+      "legalCallout": "⚠️ [LEGAL — PROFESSIONAL TRANSLATION REQUIRED] Miami-Dade County law requires you to notify Animal Services within 72 hours. Failure to do so may result in a civil penalty.",
+      "fosterNote": "Objektif la se kenbe chen sa a andeyò abri a. Sistèm abri Miami-Dade a plen. Yon chen nan yon kay pi an sekirite, plis kalm, epi gen pi bon chans pou reyini ak pwopriyetè li.",
+      "howTitle": "Kijan pou depoze rapò ofisyèl la (fè youn nan sa yo):",
+      "checks": [
+        "Anliy (preferab): Soumèt via Petco Love Lost — fòm sa a avèti dirèkteman Sèvis Bèt Miami-Dade.",
+        "Pa telefòn: Rele <strong>311</strong> oswa <strong>305-468-5900</strong> si ou pa kapab ranpli fòm anliy la"
+      ],
+      "doneNote": "Sa a se tout pou etap sa a. Ou pa bezwen ale nan abri a.",
+      "petcoBtn": "Depoze Rapò Ofisyèl via Petco Love Lost",
+      "deadlineCallout": "⏱️ Si w ap pwoche 72 è, pa jwenn pwopriyetè a, epi ou pa kapab kontinye bay swen, ale nan Sèvis Bèt Miami-Dade an pèsòn pou konplete yon <strong>aplikasyon akèy tanporè</strong>.<br>3599 NW 79 Avenue, Doral FL 33122<br>Lendi–Vandredi: 10:00 AM–6:30 PM | Samdi–Dimanch: 10:00 AM–4:00 PM"
+    },
+    "step4": {
+      "title": "Poste piblikman pou pwopriyetè a ka jwenn ou",
+      "wordingTitle": "Itilize egzakteman modèl mo sa a. Pòs ki pa klè ralanti tout bagay.",
+      "wordingDo": "✅ Ekri: <strong>\"MWEN JWENN YON CHEN — [Katye] — [Dat]\"</strong>",
+      "wordingDont": "❌ Pa ekri: \"Chen pèdi\" — sa vle di SE chen OU ki pèdi, ki se opoze",
+      "wordingInclude": "Enkli: foto, koulè, ras oswa melanj, kote jwenn, <strong>nimewo telefòn ou nan deskripsyon an</strong>",
+      "wordingExclude": "Pa enkli: adrès kay ou",
+      "tip": "⚠️ Konsèy enpòtan — ajoute nimewo telefòn ou dirèkteman nan deskripsyon pòs la. Petco Love Lost ak PawBoost kache enfòmasyon kontak ou ak voye imèl — ki souvan ale nan spam. Mete nimewo ou nan kò chak pòs.",
+      "howToPost": "Kijan pou poste — nan lòd sa a:",
+      "checks": [
+        "Poste sou <strong>Petco Love Lost</strong> ak yon foto klè — AI pral otomatikman konpare pòs ou ak rapò chen pèdi egzistant",
+        "Poste sou <strong>PawBoost</strong> — distribye nan paj Facebook lokal pa zòn. Swiv paj lokal ou ak aktive notifikasyon.",
+        "Pataje pòs Petco Love Lost ak PawBoost yo sou NextDoor ak gwoup Facebook lokal",
+        "Tcheke rapò \"Pèdi\" egzistant sou Petco Love Lost ak PawBoost — èske chen sa a matche ak yon moun k ap chèche?"
+      ],
+      "petcoBtn": "Poste sou Petco Love Lost",
+      "pawboostBtn": "Poste sou PawBoost"
+    },
+    "step5": {
+      "title": "Kenbe chen an an sekirite",
+      "legalNote": "Ou <strong>otorize legalman</strong> pou kenbe chen an nan kay ou pandan w ap chèche pwopriyetè a. Ou pa oblije mennen chen an nan abri a.",
+      "bullets": [
+        "Bay dlo, manje, ak yon espas an sekirite ak kalm",
+        "Kenbe chen an separe ak lòt bèt domestik jiskaske tanperaman an konnen",
+        "Si chen an parèt blese oswa malad, rele 311 pou opsyon veterinè a pri ba",
+        "Tcheke pòs ou yo chak jou pou repons"
+      ]
+    },
+    "step6": {
+      "title": "Verifye pwopriyetè a anvan ou lage chen an",
+      "intro": "Etap sa a pwoteje ou, pwoteje chen an, epi kreye yon dosye responsab. Pa lage chen an anvan ou fin konplete li.",
+      "callout": "Nenpòt moun ka reklame yon chen. Anvan ou remèt chen an, ou bezwen konfime ke se vrèman chen yo a. Sa a se pratik estanda epi pwopriyetè a pral konprann.",
+      "verifyTitle": "Kijan pou verifye — mande omwen de nan sa yo:",
+      "checks": [
+        "<strong>Dekri mak chen an san yo pa ba yo pwen.</strong> Mande: \"Èske ou ka dekri nenpòt mak distintif, sikatris, oswa karakteristik?\" Si yo ka dekri yon bagay ou pa mansyone nan pòs ou, sa a se yon bon endikasyon.",
+        "<strong>Foto anvan chen an te pèdi.</strong> Mande yo montre ou foto yo avèk chen an sou telefòn yo.",
+        "<strong>Dosye veterinè</strong> ki montre non chen an ak non yo kòm pwopriyetè.",
+        "<strong>Sètifika anrejistreman microchip</strong> ak non yo ak nimewo chip la.",
+        "<strong>Lisans chen Miami-Dade</strong> nan non yo."
+      ],
+      "documentTitle": "Dokimante remisyon an — pou pwòp dosye ou:",
+      "documentChecks": [
+        "Pran yon foto ID pwopriyetè a — mande pèmisyon, eksplike ke se pou dosye ou",
+        "Pran yon foto chen an avèk pwopriyetè a nan moman retounen an",
+        "Note dat, lè, ak kote remisyon an"
+      ],
+      "whyNote": "Vòl chen reyèl. Diskisyon rive. Yon remisyon dokimante pwoteje ou legalman epi asire bon chen an ale bay bon moun.",
+      "afterTitle": "Apre remisyon an:",
+      "afterChecks": [
+        "Mete ajou tout pòs: \"REYINI — mèsi tout moun ❤️\"",
+        "Avèti Sèvis Bèt Miami-Dade ke chen an te retounen bay pwopriyetè a",
+        "Fèmen anrejistreman Pet Harbor ou"
+      ]
+    },
+    "completion": "✅ Ou fin konplete tout etap yo — enkli kondisyon legal yo.\nOu fè yon diferans. Mèsi.\nKesyon? Rele <strong>311</strong> oswa <strong>305-468-5900</strong>."
+  },
+  "resources": {
+    "title": "Anyè Resous",
+    "subtitle": "Tout zouti ak òganizasyon ki ede ak chen pèdi ak jwenn nan Miami-Dade.",
+    "catA": "Ofisyèl — Rapòte ak Chèche",
+    "catB": "Kominotè — Poste ak Chèche",
+    "catC": "Abri ak Sove",
+    "catD": "Sèvis Gratis ak Pri Ba",
+    "facebookNote": "Nòt sou Facebook: PawBoost poste otomatikman nan gwoup Facebook lokal òganize pa zòn jewografik. Itilizatè yo pa bezwen jere gwoup Facebook manyèlman.",
+    "capacityNote": "Lis òganizasyon sove lokal. Pifò sove yo plen oswa pi plen pase kapasitie as of 2026.",
+    "collapse": "Efondre",
+    "expand": "Elaji"
+  },
+  "prevention": {
+    "title": "Prevansyon",
+    "subtitle": "3 bagay ki pi vit reyini chen yo ak pwopriyetè yo — anvan yo pèdi.",
+    "printNote": "Fèt pou enprime kòm yon kat recto-verso epi pataje nan biwo veterinè, panno HOA, ak sant kominotè.",
+    "card1Title": "1. Mete microchip chen ou — epi kenbe rejis la aktyèl",
+    "card1Body": "Yon chip ak yon vye nimewo telefòn pa itil. Chip la se bon jan sa ki anrejistre avèk li.",
+    "card1Steps": [
+      "Jwenn chip (~$25–$45 nan pifò veterinè; gratis nan evènman konte)",
+      "Anrejistre chip la imedyatman (AKC Reunite, HomeAgain, AVID, oswa 24Petwatch)",
+      "Mete ajou nimewo telefòn ou chak fwa li chanje"
+    ],
+    "card1Link": "Chèche chip oswa etikèt lisans ou",
+    "card2Title": "2. Itilize yon etikèt idantifikasyon ki fasil pou li",
+    "card2Body": "Etikèt yo travay menm san eskanè. Moun ki jwenn chen ou ka rele ou imedyatman — san aplikasyon ni veterinè.",
+    "card2Tips": [
+      "Enkli: non chen an + nimewo selilè ou",
+      "Fòma: grave dirèkteman sou kolye a, oswa gwo etikèt glisan",
+      "Lèt ase gwo pou li pandan chen an ap deplase",
+      "Ranplase lè li vye, efase, oswa enfòmasyon an chanje"
+    ],
+    "card2Insight": "Konsèy kominotè: Etikèt enprime dirèkteman sou kolye a ak gwo lèt pi fasil pou moun jwenn yo li sou yon chen ki eksiste.",
+    "card3Title": "3. Lisans chen ou nan Konte Miami-Dade",
+    "card3Body": "Lisans obligatwa pa lwa konte epi li konekte chen ou ak adrès ou ak enfòmasyon kontak nan baz done konte a.",
+    "card3Link": "Lisans chen ou ak Miami-Dade",
+    "auditTitle": "Bonis: Odit Sove nan Kay",
+    "auditItems": [
+      "Tcheke kloti a pou twou nan nivo tè — sitou apre lapli, van, oswa jaden",
+      "Teste tachman pòt yo: èske yo ka louvri yo ak nen oswa pat?",
+      "Konnen wout sove preferab chen ou epi ranfòse li",
+      "Kenbe etikèt idantifikasyon menm sou chen enteryè — yon pòt ouvè se tout sa ki nesesè"
+    ],
+    "printBtn": "Enprime Kat Prevansyon"
+  },
+  "help": {
+    "title": "Èd Kominotè",
+    "subtitle": "Ou pa bezwen fè tout bagay. Chwazi YON bagay.",
+    "reframe": "Aksyon ki pi gwo enpak pou pifò manm kominotè a pa bay kado oswa bay swen tanporè — se <strong>ranplase pwòp konsèy ou ak pwotokòl sa a.</strong> Chanjman konpòtman sa a echèl imedyatman epi pa koute anyen.",
+    "card1Title": "PATAJE PWOTOKÒL LA",
+    "card1Time": "2 minit, gratis — pi gwo enpak",
+    "card1Body": "Lè ou wè yon moun poste \"Mwen pèdi chen mwen\" oswa \"Mwen jwenn yon chen\" — sispann ekri pwòp konsèy ou epi pataje lyen sa a.",
+    "card1Lost": "/lost pou yon moun ki pèdi yon chen",
+    "card1Found": "/found pou yon moun ki jwenn youn",
+    "card1Why": "Yon pwotokòl klè pi bon pase 40 kòmantè kontradiktwa. Chak fwa yon moun pataje lyen sa a olye pwòp konsèy yo, kominotè a vin pi kòdone.",
+    "card1Cta": "Kopye lyen pou pataje",
+    "card1LostCta": "Kopye lyen /lost",
+    "card1FoundCta": "Kopye lyen /found",
+    "card1Copied": "Kopye!",
+    "card2Title": "FÈ DON",
+    "card2Time": "5 minit, nenpòt montan",
+    "card2Body": "Bay sa ou kapab bay sove lokal ki kouvri depans pou bèt jwenn.",
+    "card2Anchors": [
+      "$5 = anrejistreman microchip pou yon chen",
+      "$15 = jeu etikèt idantifikasyon pou 5 chen",
+      "$49 = yon jou eberijman ijans pou yon vage jwenn"
+    ],
+    "card2Cta": "Wè sove lokal Miami-Dade ki aksepte don",
+    "card3Title": "VOLONTÈ",
+    "card3Time": "Kèk è pa mwa",
+    "card3Body": "Ede poste feyè lè yon chen pèdi pre. Eskannen pòs pèdi/jwenn epi make korespondans potansyèl.",
+    "card3Cta": "Enskri — 2 minit, san angajman",
+    "card4Title": "BAY SWEN TANPORÈ (FOSTER)",
+    "card4Time": "Jou oswa semèn, dapre pwòp orè ou",
+    "card4Body": "Kenbe tanporè yon chen jwenn an sekirite nan kay ou pandan pwopriyetè a jwenn oswa adopsyon an ranje. Pa bezwen eksperyans.",
+    "card4Cta": "Aplike pou bay swen tanporè",
+    "card5Title": "ADOPTE",
+    "card5Body": "Abri Miami-Dade yo plen. Adopsyon kreye dirèkteman espas pou chen ki te pote kòm vage jwenn.",
+    "card5Cta": "Wè chen disponib kounye a — Pet Harbor Miami-Dade"
+  }
+}

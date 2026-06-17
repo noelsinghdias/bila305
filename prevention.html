@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The 3 things that reunite dogs fastest — microchip, ID tag, and license. Prevention tips for Miami-Dade dog owners.">
+  <title>Prevention — BILA305</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo" aria-label="BILA305 — Home">
+        BILA305
+        <span>Miami-Dade Lost &amp; Found Pet Hub</span>
+      </a>
+      <div class="lang-toggle" role="group" aria-label="Language / Idioma / Lang">
+        <button class="lang-toggle__btn" data-lang="en" aria-pressed="true">English</button>
+        <button class="lang-toggle__btn" data-lang="es" aria-pressed="false">Español</button>
+        <button class="lang-toggle__btn" data-lang="kr" aria-pressed="false">Kreyòl</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="lang-banner" class="lang-banner" hidden role="alert">
+    <span data-lang-banner-msg>We detected your browser language. Switch?</span>
+    <div style="display:flex;gap:8px;flex-shrink:0">
+      <button class="lang-banner__dismiss" data-lang-banner-accept>Yes, switch</button>
+      <button class="lang-banner__dismiss" data-lang-banner-dismiss>Stay in English</button>
+    </div>
+  </div>
+
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="main-nav__inner">
+      <a href="index.html" class="main-nav__link" data-i18n="nav.home">Home</a>
+      <a href="lost.html" class="main-nav__link" data-i18n="nav.lost">Lost a Dog or Cat</a>
+      <a href="found.html" class="main-nav__link" data-i18n="nav.found">Found a Dog or Cat</a>
+      <a href="resources.html" class="main-nav__link" data-i18n="nav.resources">Resources</a>
+      <a href="prevention.html" class="main-nav__link" aria-current="page" data-i18n="nav.prevention">Prevention</a>
+      <a href="help.html" class="main-nav__link" data-i18n="nav.help">Community Help</a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <div class="container">
+
+      <div class="page-hero">
+        <p class="page-hero__label">Hub — Prevention</p>
+        <h1 class="page-hero__title" data-i18n="prevention.title">Prevention</h1>
+        <p class="page-hero__subtitle" data-i18n="prevention.subtitle">The 3 things that reunite dogs fastest — before they go missing.</p>
+        <p class="text-small text-muted mt-8" data-i18n="prevention.printNote">Designed to be printed as a double-sided card and shared at vet offices, HOA boards, and community centers.</p>
+      </div>
+
+      <div class="btn-row mb-16">
+        <button class="btn btn--outline" onclick="window.print()" data-i18n="prevention.printBtn">Print Prevention Card</button>
+      </div>
+
+      <!-- Card 1: Microchip -->
+      <div class="prevention-card">
+        <p class="prevention-card__number">Prevention 1</p>
+        <h2 class="prevention-card__title" data-i18n="prevention.card1Title">Microchip your dog — and keep the registry current</h2>
+        <p class="prevention-card__body" data-i18n="prevention.card1Body">A chip with an old phone number is useless. The chip is only as good as what's registered to it.</p>
+        <ol class="prevention-steps">
+          <li data-i18n="prevention.card1Steps.0">Get chipped (~$25–$45 at most vets; free at county events)</li>
+          <li data-i18n="prevention.card1Steps.1">Register the chip immediately (AKC Reunite, HomeAgain, AVID, or 24Petwatch)</li>
+          <li data-i18n="prevention.card1Steps.2">Update your phone number every time it changes</li>
+        </ol>
+        <div class="btn-row mt-16">
+          <a href="https://www.miamidade.gov/Apps/ASD/TagSearch/" target="_blank" rel="noopener" class="btn btn--outline btn--sm" data-i18n="prevention.card1Link">Look up your chip or license tag</a>
+        </div>
+      </div>
+
+      <!-- Card 2: ID Tag -->
+      <div class="prevention-card">
+        <p class="prevention-card__number">Prevention 2</p>
+        <h2 class="prevention-card__title" data-i18n="prevention.card2Title">Use a readable ID tag</h2>
+        <p class="prevention-card__body" data-i18n="prevention.card2Body">Tags work even without a scanner. The right finder can call you immediately — no app, no vet required.</p>
+        <ul class="prevention-tips">
+          <li data-i18n="prevention.card2Tips.0">Include: dog's name + your cell phone number</li>
+          <li data-i18n="prevention.card2Tips.1">Format: embossed directly on collar, or large slide-on tag</li>
+          <li data-i18n="prevention.card2Tips.2">Font large enough to read while the dog is moving — not a small dangling disc</li>
+          <li data-i18n="prevention.card2Tips.3">Replace when worn, faded, or info changes</li>
+        </ul>
+        <div class="insight-box" data-i18n="prevention.card2Insight">Community insight: Tags printed directly on the collar in large letters are easiest for finders to read on an excited dog.</div>
+      </div>
+
+      <!-- Card 3: License -->
+      <div class="prevention-card">
+        <p class="prevention-card__number">Prevention 3</p>
+        <h2 class="prevention-card__title" data-i18n="prevention.card3Title">License your dog in Miami-Dade County</h2>
+        <p class="prevention-card__body" data-i18n="prevention.card3Body">Licensing is required by county law and links your dog to your address and contact info in the county database. A licensed dog can be identified in seconds via the tag lookup tool.</p>
+        <div class="btn-row">
+          <a href="https://www.miamidade.gov/global/service.page?Mduid_service=ser1608058962124426" target="_blank" rel="noopener" class="btn btn--primary btn--sm" data-i18n="prevention.card3Link">License your dog with Miami-Dade</a>
+        </div>
+      </div>
+
+      <!-- Bonus: Home Escape Audit -->
+      <div class="prevention-card">
+        <p class="prevention-card__number">Bonus</p>
+        <h2 class="prevention-card__title" data-i18n="prevention.auditTitle">Home escape audit</h2>
+        <ul class="prevention-tips">
+          <li data-i18n="prevention.auditItems.0">Check fence for ground-level gaps — especially after rain, wind, or landscaping</li>
+          <li data-i18n="prevention.auditItems.1">Test gate latches: can they be nosed or pawed open?</li>
+          <li data-i18n="prevention.auditItems.2">Know your dog's preferred escape route and reinforce it</li>
+          <li data-i18n="prevention.auditItems.3">Keep ID tags on even indoor dogs — one open door is all it takes</li>
+        </ul>
+      </div>
+
+      <div style="height:60px"></div>
+
+    </div>
+  </main>
+
+  <a href="tel:311" class="stuck-btn" aria-label="Stuck? Call 311" data-i18n="stuck">Stuck? Call 311</a>
+
+
+  <!-- LEGAL DISCLAIMER -->
+  <div class="page-legal">
+    <div class="container">
+      <p><strong>Legal disclaimer:</strong> BILA305 is a community-curated resource guide and is not affiliated with or endorsed by Miami-Dade County or any government agency. Information is provided for general guidance only and may not reflect current laws, procedures, or availability of services. Always verify critical information directly with Miami-Dade Animal Services (311 or 305-468-5900) before taking action.</p>
+    </div>
+  </div>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <p class="site-footer__title" data-i18n="footer.hotline">📞 Lost &amp; Found Hotline: 311 or 305-468-5900</p>
+      <p>✉️ <a href="mailto:asdlostandfound@miamidade.gov" data-i18n="footer.email">asdlostandfound@miamidade.gov</a></p>
+      <p data-i18n="footer.address">📍 Miami-Dade Animal Services</p>
+      <p data-i18n="footer.street">3599 NW 79 Avenue, Doral, FL 33122</p>
+      <p data-i18n="footer.hours">Mon–Fri: 10AM–6:30PM | Sat–Sun: 10AM–4PM</p>
+    </div>
+      <p class="site-footer__copyright">&copy; 2026 noelnascimentosinghdias. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>

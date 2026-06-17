@@ -1,0 +1,304 @@
+{
+  "lang": "es",
+  "nav": {
+    "home": "Inicio",
+    "lost": "Perdí a mi perro",
+    "found": "Encontré un perro",
+    "resources": "Recursos",
+    "prevention": "Prevención",
+    "help": "Ayuda comunitaria"
+  },
+  "langToggle": {
+    "label": "Idioma",
+    "en": "EN",
+    "es": "ES",
+    "kr": "KR"
+  },
+  "stuck": "¿Necesitas ayuda? Llama al 311",
+  "footer": {
+    "hotline": "Línea de animales perdidos/encontrados: 311 o 305-468-5900",
+    "email": "asdlostandfound@miamidade.gov",
+    "address": "Servicios de Animales de Miami-Dade",
+    "street": "3599 NW 79 Avenue, Doral, FL 33122",
+    "hours": "Lun–Vie: 10AM–6:30PM | Sáb–Dom: 10AM–4PM"
+  },
+  "home": {
+    "title": "Centro de Recursos para Perros Perdidos y Encontrados",
+    "subtitle": "El recurso compartido de la comunidad para perros perdidos y encontrados en el Condado Miami-Dade.",
+    "lostBtn": "PERDÍ A MI PERRO",
+    "foundBtn": "ENCONTRÉ UN PERRO",
+    "lostDesc": "Protocolo paso a paso para encontrar a tu perro rápidamente.",
+    "foundDesc": "Protocolo paso a paso con requisitos legales.",
+    "hubTitle": "Centro de Recursos",
+    "hubSubtitle": "Encuentra herramientas, consejos de prevención y formas de ayudar.",
+    "resourcesBtn": "Directorio de Recursos",
+    "preventionBtn": "Prevención",
+    "helpBtn": "Ayuda Comunitaria"
+  },
+  "lost": {
+    "headline": "Encontremos a tu perro. Sigue estos pasos en orden.",
+    "timeEstimate": "Esta lista de verificación toma aproximadamente 20 minutos.",
+    "legalBanner": "⚠️ Ley del Condado Miami-Dade: El refugio solo puede retener a tu perro por <strong>3 días</strong> antes de que esté disponible para adopción. <strong>Presentar un reporte hoy protege a tu perro.</strong>",
+    "progressLabel": "Paso {current} de {total}",
+    "phase1Title": "Fase 1 — Ahora mismo",
+    "phase1Subtitle": "Primeros 15 minutos",
+    "phase2Title": "Fase 2 — Dentro de la próxima hora",
+    "phase3Title": "Fase 3 — Hoy",
+    "phase3Subtitle": "Importante legalmente — no omitir",
+    "phase4Title": "Fase 4 — Dentro de 48 horas",
+    "phase5Title": "Fase 5 — Continuamente",
+    "step1": {
+      "title": "Busca en tu área inmediata",
+      "body": "Camina o maneja dentro de 2 cuadras del último lugar donde viste a tu perro. Pregunta a los vecinos si lo han visto.",
+      "why": "La mayoría de los perros se encuentran a pocas cuadras de casa durante la primera hora. Si estos dos pasos no resultan, pasa inmediatamente al Paso 2.",
+      "checks": [
+        "Busqué en mi jardín y en la calle",
+        "Pregunté a 2–3 vecinos"
+      ]
+    },
+    "step2": {
+      "title": "Publica en estas plataformas (todas gratuitas)",
+      "tip": "⚠️ Consejo importante — agrega tu número de teléfono directamente en la descripción de la publicación: Tanto Petco Love Lost como PawBoost ocultan tu información de contacto y envían notificaciones por correo electrónico — que frecuentemente van a spam. No dependas solo de las notificaciones de la plataforma. Pon tu número de teléfono en el cuerpo de cada publicación.",
+      "howToPost": "Cómo publicar — en este orden:",
+      "checks": [
+        "Publicar en <strong>Petco Love Lost</strong> — el reconocimiento facial con IA compara la foto de tu perro con reportes en tiempo real",
+        "Publicar en <strong>PawBoost</strong> — distribuye automáticamente a páginas locales de Facebook. Después de publicar, sigue tu página local de PawBoost y activa las notificaciones.",
+        "Comparte tus publicaciones de Petco Love Lost y PawBoost en NextDoor y grupos locales de Facebook — comparte las publicaciones existentes en lugar de crear nuevas"
+      ],
+      "templateTitle": "Muéstrame qué escribir",
+      "template": "🚨 PERRO PERDIDO — [VECINDARIO] — [FECHA]\nNombre: [Nombre del perro]\nRaza/mezcla: [Descripción]\nColor y marcas: [Sé específico/a]\nVisto por última vez: [Calle o intersección]\nContacto: [Tu número de teléfono]\n[FOTO CLARA]",
+      "petcoBtn": "Publicar en Petco Love Lost",
+      "pawboostBtn": "Publicar en PawBoost"
+    },
+    "step3": {
+      "title": "Presenta un reporte con Servicios de Animales de Miami-Dade",
+      "legalCallout": "⚠️ Presentar un reporte oficial crea un registro. Esta es tu protección legal si tu perro termina en el refugio — y el tiempo es corto. El refugio solo puede retener a tu perro por <strong>3 días</strong> antes de que sea elegible para adopción.",
+      "fosterCallout": "🏠 Si alguien ya encontró a tu perro, pídele que lo <strong>siga cuidando en casa</strong> mientras trabajas para reunirte con él. Los refugios de Miami-Dade están a capacidad máxima. Un perro está más seguro en un hogar que en una instalación de ingreso. Los que encuentran perros pueden legalmente quedárselos mientras buscan al dueño.",
+      "fileNote": "Presenta tu reporte (hazlo incluso si crees que alguien tiene al perro — crea un registro oficial):",
+      "call": "Llamar: 311 o 305-468-5900",
+      "email": "Correo: asdlostandfound@miamidade.gov",
+      "inPerson": "En persona: 3599 NW 79 Avenue, Doral FL 33122",
+      "hours": "Lun–Vie: 10:00 AM–6:30 PM | Sáb–Dom: 10:00 AM–4:00 PM | Cerrado en días feriados del condado",
+      "checks": [
+        "Reporte presentado ante Servicios de Animales",
+        "Busqué el microchip o etiqueta de licencia de mi perro",
+        "Revisé las listas actuales del refugio"
+      ],
+      "searchTagBtn": "Buscar Etiqueta/Chip",
+      "viewShelterBtn": "Ver Animales en el Refugio",
+      "redemptionTitle": "Si tu perro ya está en el refugio — tarifas de rescate:",
+      "redemptionCallout": "Trae el <strong>certificado de rabia</strong> de tu perro — sin él, no liberarán a tu perro hasta que obtenga una vacuna contra la rabia.<br>• Perro esterilizado: <strong>$50 + $10/día de alojamiento</strong><br>• Perro no esterilizado: <strong>$100 + $10/día de alojamiento</strong><br>• Segunda infracción en 12 meses: $75–$125 + alojamiento"
+    },
+    "step4": {
+      "title": "Amplía tu búsqueda",
+      "checks": [
+        "Haz y distribuye volantes físicos en un radio de 1 milla (foto grande, teléfono en letras de al menos 36pt, \"PERRO PERDIDO\" en negrita arriba)",
+        "Regístrate en <strong>Pet Harbor</strong>",
+        "Publica en <strong>24Petconnect</strong>",
+        "Visita el refugio en persona — camina por los kennels, pide ayuda al personal"
+      ],
+      "flyerBtn": "Descargar plantilla de volante",
+      "petHarborBtn": "Buscar en Pet Harbor",
+      "petconnectBtn": "Publicar en 24Petconnect"
+    },
+    "step5": {
+      "title": "Sigue adelante",
+      "checks": [
+        "Revisa todas las plataformas diariamente",
+        "Revisa las listas del refugio diariamente",
+        "Actualiza tus publicaciones si tienes información nueva"
+      ],
+      "foundTitle": "Cuando encuentres a tu perro:",
+      "foundChecks": [
+        "Actualiza todas las publicaciones: \"ENCONTRADO — gracias a todos\"",
+        "Notifica a Servicios de Animales para cerrar tu reporte",
+        "Tómate una foto de la reunión — te lo mereces"
+      ]
+    },
+    "completion": "✅ Completaste todos los pasos urgentes. Sigue revisando diariamente.\n¿Necesitas ayuda? Llama al <strong>311</strong>."
+  },
+  "found": {
+    "headline": "Hiciste lo correcto al detenerte. Aquí está exactamente lo que debes hacer — paso a paso.",
+    "timeEstimate": "Esta lista de verificación toma aproximadamente 30 minutos.",
+    "legalBanner": "🔴 <strong>PLAZO LEGAL DE 72 HORAS</strong><br>La ley del Condado Miami-Dade requiere que:<br>1. Notifiques a Servicios de Animales, Y<br>2. El perro sea escaneado para detectar microchip<br><br>Ambas cosas deben hacerse <strong>dentro de las 72 horas</strong> de haber encontrado al perro. El incumplimiento puede resultar en una penalidad civil.<br>⏱️ Tus 72 horas comenzaron cuando encontraste al perro.",
+    "phase1Title": "Fase 1 — Ahora mismo",
+    "phase2Title": "Fase 2 — Dentro de 2 horas",
+    "phase3Title": "Fase 3 — Dentro de 72 horas",
+    "phase3Subtitle": "Requerido por ley",
+    "phase4Title": "Fase 4 — Hoy",
+    "phase5Title": "Fase 5 — Mientras esperas",
+    "phase6Title": "Fase 6 — Cuando el dueño te contacte",
+    "step1": {
+      "title": "Revisa si tiene identificación",
+      "treeQ1": "¿El perro tiene collar con etiqueta?",
+      "treeYes": "SÍ",
+      "treeNo": "NO",
+      "treeQ2": "¿Hay un número de teléfono en la etiqueta?",
+      "treeDone": "Llama ahora. ¡Es posible que hayas terminado! ✅",
+      "treeQ3": "¿Hay una etiqueta de rabia o número de licencia?",
+      "treeLookup": "Búscalo",
+      "treeLookupBtn": "Buscar Etiqueta/Chip",
+      "treeContinue": "Continúa al Paso 2",
+      "treeNote": "La herramienta de búsqueda de etiquetas/microchips de Miami-Dade puede identificar al dueño solo con el número de licencia o etiqueta de rabia."
+    },
+    "step2": {
+      "title": "Lleva al perro a escanear para detectar microchip",
+      "legalCallout": "⚠️ Requerido por la Ordenanza del Condado Miami-Dade. Debe hacerse dentro de las 72 horas de haber encontrado al perro.",
+      "options": "Opciones:",
+      "vet": "<strong>Cualquier clínica veterinaria privada</strong> — la mayoría escaneará gratis o a bajo costo. Llama con anticipación.",
+      "shelter": "<strong>Servicios de Animales de Miami-Dade</strong> — 3599 NW 79 Ave, Doral FL 33122<br>Lun–Vie: 10:00 AM–6:30 PM | Sáb–Dom: 10:00 AM–4:00 PM",
+      "chipFound": "⚠️ Debes contactar al dueño registrado dentro de <strong>24 horas</strong>. Esto es requerido por ley.<br>Continúa al Paso 6 (Verificación de propietario) tan pronto como el dueño responda.",
+      "noChip": "No se encontró chip — continúa al Paso 3.",
+      "chipFoundTitle": "Si se encuentra un chip:",
+      "noChipTitle": "Si no se encuentra chip:"
+    },
+    "step3": {
+      "title": "Presenta el reporte oficial — y quédate con el perro",
+      "legalCallout": "⚠️ La ley del Condado Miami-Dade requiere que notifiques a Servicios de Animales dentro de las 72 horas. El incumplimiento puede resultar en una penalidad civil.",
+      "fosterNote": "El objetivo es mantener a este perro fuera del refugio. El sistema de refugios de Miami-Dade está a capacidad máxima. Un perro en un hogar está más seguro y tiene más probabilidades de ser reunido con su dueño.",
+      "howTitle": "Cómo presentar el reporte oficial (haz uno de estos):",
+      "checks": [
+        "En línea (preferido): Envía a través de Petco Love Lost — este formulario notifica directamente a Servicios de Animales de Miami-Dade.",
+        "Por teléfono: Llama al <strong>311</strong> o <strong>305-468-5900</strong> si no puedes completar el formulario en línea"
+      ],
+      "doneNote": "Eso es todo para este paso. No necesitas ir al refugio.",
+      "petcoBtn": "Presentar Reporte Oficial via Petco Love Lost",
+      "deadlineCallout": "⏱️ Si se acercan las 72 horas, no has encontrado al dueño, y no puedes seguir cuidando al perro, ve a Servicios de Animales de Miami-Dade en persona para completar una <strong>solicitud de cuidado temporal</strong>.<br>3599 NW 79 Avenue, Doral FL 33122<br>Lun–Vie: 10:00 AM–6:30 PM | Sáb–Dom: 10:00 AM–4:00 PM"
+    },
+    "step4": {
+      "title": "Publica públicamente para que el dueño pueda encontrarte",
+      "wordingTitle": "Usa exactamente este patrón de palabras. Las publicaciones poco claras retrasan todo.",
+      "wordingDo": "✅ Escribe: <strong>\"ENCONTRÉ UN PERRO — [Vecindario] — [Fecha]\"</strong>",
+      "wordingDont": "❌ No escribas: \"Perro perdido\" — eso significa que TU perro está desaparecido, lo cual es lo opuesto",
+      "wordingInclude": "Incluye: foto, color, raza o mezcla, dónde se encontró, <strong>tu número de teléfono en la descripción</strong>",
+      "wordingExclude": "No incluyas: tu dirección de casa",
+      "tip": "⚠️ Consejo importante — agrega tu número de teléfono directamente en la descripción. Tanto Petco Love Lost como PawBoost ocultan tu información de contacto y envían notificaciones por correo — que frecuentemente van a spam. Pon tu número en el cuerpo de cada publicación.",
+      "howToPost": "Cómo publicar — en este orden:",
+      "checks": [
+        "Publicar en <strong>Petco Love Lost</strong> con una foto clara — la IA comparará automáticamente tu publicación con reportes existentes de perros perdidos",
+        "Publicar en <strong>PawBoost</strong> — distribuye a páginas locales de Facebook por área. Sigue tu página local y activa notificaciones.",
+        "Comparte tus publicaciones de Petco Love Lost y PawBoost en NextDoor y grupos locales de Facebook",
+        "Revisa los reportes existentes de \"Perdidos\" en Petco Love Lost y PawBoost — ¿coincide este perro con alguien buscando?"
+      ],
+      "petcoBtn": "Publicar en Petco Love Lost",
+      "pawboostBtn": "Publicar en PawBoost"
+    },
+    "step5": {
+      "title": "Mantén al perro seguro",
+      "legalNote": "Estás <strong>legalmente autorizado/a</strong> a quedarte con el perro en tu casa mientras buscas al dueño. No tienes que llevarlo al refugio.",
+      "bullets": [
+        "Proporciona agua, comida y un espacio seguro y tranquilo",
+        "Mantén al perro separado de otras mascotas hasta conocer su temperamento",
+        "Si el perro parece herido o enfermo, llama al 311 para opciones veterinarias de bajo costo",
+        "Revisa tus publicaciones diariamente para ver respuestas"
+      ]
+    },
+    "step6": {
+      "title": "Verifica la propiedad antes de entregar al perro",
+      "intro": "Este paso te protege a ti, protege al perro y crea un registro responsable. No entregues al perro antes de completarlo.",
+      "callout": "Cualquiera puede reclamar un perro. Antes de entregar al perro, debes confirmar que realmente es suyo. Esta es una práctica estándar y el dueño lo entenderá.",
+      "verifyTitle": "Cómo verificar — pide al menos dos de los siguientes:",
+      "checks": [
+        "<strong>Que describan las marcas del perro sin que los guíes.</strong> Pregunta: \"¿Puede describir alguna marca distintiva, cicatriz o característica?\" Si puede describir algo que no mencionaste en tu publicación, esa es una fuerte indicación.",
+        "<strong>Fotos anteriores a cuando se perdió el perro.</strong> Pídeles que te muestren fotos de ellos con el perro en su teléfono.",
+        "<strong>Registros veterinarios</strong> que muestren el nombre del perro y su nombre como dueño.",
+        "<strong>Certificado de registro de microchip</strong> con su nombre y el número del chip.",
+        "<strong>Licencia de perro de Miami-Dade</strong> a su nombre."
+      ],
+      "documentTitle": "Documenta la entrega — para tus propios registros:",
+      "documentChecks": [
+        "Toma una foto de la identificación del dueño — pide permiso, explica que es para tus registros",
+        "Toma una foto del perro con el dueño en el momento de la devolución",
+        "Anota la fecha, hora y lugar de la entrega"
+      ],
+      "whyNote": "El robo de perros es real. Las disputas ocurren. Una entrega documentada te protege legalmente y garantiza que el perro correcto vaya a la persona correcta.",
+      "afterTitle": "Después de la entrega:",
+      "afterChecks": [
+        "Actualiza todas las publicaciones: \"REUNIDOS — gracias a todos ❤️\"",
+        "Notifica a Servicios de Animales de Miami-Dade que el perro fue devuelto al dueño",
+        "Cierra tu registro en Pet Harbor"
+      ]
+    },
+    "completion": "✅ Completaste todos los pasos — incluyendo los requisitos legales.\nHiciste la diferencia. Gracias.\n¿Preguntas? Llama al <strong>311</strong> o <strong>305-468-5900</strong>."
+  },
+  "resources": {
+    "title": "Directorio de Recursos",
+    "subtitle": "Todas las herramientas y organizaciones que ayudan con perros perdidos y encontrados en Miami-Dade.",
+    "catA": "Oficial — Reportar y Buscar",
+    "catB": "Comunitario — Publicar y Buscar",
+    "catC": "Refugios y Rescates",
+    "catD": "Servicios Gratuitos y de Bajo Costo",
+    "facebookNote": "Nota sobre Facebook: PawBoost publica automáticamente en grupos locales de Facebook organizados por área geográfica. Los usuarios no necesitan gestionar grupos de Facebook manualmente.",
+    "capacityNote": "Lista de organizaciones de rescate locales. La mayoría de los rescates están a capacidad máxima o más a partir de 2026.",
+    "collapse": "Colapsar",
+    "expand": "Expandir"
+  },
+  "prevention": {
+    "title": "Prevención",
+    "subtitle": "Las 3 cosas que más rápido reúnen a los perros con sus dueños — antes de que se pierdan.",
+    "printNote": "Diseñado para imprimirse como una tarjeta doble cara y compartirse en consultorios veterinarios, tableros de HOA y centros comunitarios.",
+    "card1Title": "1. Microchip a tu perro — y mantén el registro actualizado",
+    "card1Body": "Un chip con un número de teléfono desactualizado es inútil. El chip es tan bueno como lo que está registrado.",
+    "card1Steps": [
+      "Coloca el chip (~$25–$45 en la mayoría de los veterinarios; gratis en eventos del condado)",
+      "Registra el chip inmediatamente (AKC Reunite, HomeAgain, AVID o 24Petwatch)",
+      "Actualiza tu número de teléfono cada vez que cambie"
+    ],
+    "card1Link": "Busca tu chip o etiqueta de licencia",
+    "card2Title": "2. Usa una etiqueta de identificación legible",
+    "card2Body": "Las etiquetas funcionan incluso sin escáner. El que encuentre a tu perro puede llamarte inmediatamente — sin aplicación ni veterinario.",
+    "card2Tips": [
+      "Incluye: nombre del perro + tu número de celular",
+      "Formato: grabado directamente en el collar, o etiqueta grande deslizable",
+      "Letra lo suficientemente grande para leer mientras el perro se mueve",
+      "Reemplaza cuando esté gastada, borrosa, o la información cambie"
+    ],
+    "card2Insight": "Consejo comunitario: Las etiquetas impresas directamente en el collar en letras grandes son más fáciles de leer en un perro emocionado.",
+    "card3Title": "3. Licencia a tu perro en el Condado Miami-Dade",
+    "card3Body": "La licencia es requerida por la ley del condado y vincula a tu perro con tu dirección e información de contacto en la base de datos del condado.",
+    "card3Link": "Licencia a tu perro con Miami-Dade",
+    "auditTitle": "Extra: Auditoría de escape en el hogar",
+    "auditItems": [
+      "Revisa la cerca en busca de huecos a nivel del suelo — especialmente después de lluvia, viento o jardinería",
+      "Prueba los cierres de las puertas: ¿pueden abrirlos con el hocico o las patas?",
+      "Conoce la ruta de escape preferida de tu perro y refuérzala",
+      "Mantén las etiquetas de identificación incluso en perros de interior — una puerta abierta es todo lo que se necesita"
+    ],
+    "printBtn": "Imprimir Tarjeta de Prevención"
+  },
+  "help": {
+    "title": "Ayuda Comunitaria",
+    "subtitle": "No tienes que hacer todo. Elige UNA cosa.",
+    "reframe": "La acción de mayor impacto para la mayoría de los miembros de la comunidad no es donar o dar acogida temporal — es <strong>reemplazar tu propio consejo con este protocolo.</strong> Ese cambio de comportamiento escala instantáneamente y no cuesta nada.",
+    "card1Title": "COMPARTE EL PROTOCOLO",
+    "card1Time": "2 minutos, gratis — mayor impacto",
+    "card1Body": "Cuando veas a alguien publicar \"Perdí a mi perro\" o \"Encontré un perro\" — deja de escribir tu propio consejo y comparte este enlace.",
+    "card1Lost": "/lost para alguien que perdió un perro",
+    "card1Found": "/found para alguien que encontró uno",
+    "card1Why": "Un protocolo claro es mejor que 40 comentarios contradictorios. Cada vez que alguien comparte este enlace en lugar de su propio consejo, la comunidad se coordina un poco mejor.",
+    "card1Cta": "Copiar enlace para compartir",
+    "card1LostCta": "Copiar enlace /lost",
+    "card1FoundCta": "Copiar enlace /found",
+    "card1Copied": "¡Copiado!",
+    "card2Title": "DONAR",
+    "card2Time": "5 minutos, cualquier cantidad",
+    "card2Body": "Da lo que puedas a los rescates locales que cubren costos para animales encontrados.",
+    "card2Anchors": [
+      "$5 = registro de microchip para un perro",
+      "$15 = juego de etiquetas de identificación para 5 perros",
+      "$49 = un día de alojamiento de emergencia para un perro callejero encontrado"
+    ],
+    "card2Cta": "Ver rescates locales de Miami-Dade que aceptan donaciones",
+    "card3Title": "VOLUNTARIADO",
+    "card3Time": "Unas pocas horas al mes",
+    "card3Body": "Ayuda a publicar volantes cuando se pierde un perro cerca. Escanea publicaciones de perdidos/encontrados y marca coincidencias potenciales.",
+    "card3Cta": "Inscríbete — 2 minutos, sin compromiso",
+    "card4Title": "CUIDADO TEMPORAL (FOSTER)",
+    "card4Time": "Días o semanas, según tu horario",
+    "card4Body": "Mantén temporalmente a un perro encontrado seguro en tu casa mientras se localiza al dueño o se arregla la adopción. No se requiere experiencia.",
+    "card4Cta": "Solicitar cuidado temporal",
+    "card5Title": "ADOPTAR",
+    "card5Body": "Los refugios de Miami-Dade están a capacidad máxima. La adopción crea directamente espacio para perros traídos como vagabundos encontrados.",
+    "card5Cta": "Ver perros disponibles ahora — Pet Harbor Miami-Dade"
+  }
+}
